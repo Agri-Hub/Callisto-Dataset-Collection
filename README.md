@@ -4,8 +4,7 @@ List of useful datasets
 ## Callisto Generated Datasets
 
 - [Mapillary Annotated](https://github.com/Agri-Hub/Mapillary_Annotation) <br/>
-Crop type labels from the freely available Land Parcel Identification System (LPIS) of the Netherlands are matched with all available Mapillary street-level images for the year 2017. [[GitHub]](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary) 
-
+Crop type labels from the freely available Land Parcel Identification System (LPIS) of the Netherlands are matched with all available Mapillary street-level images for the year 2017. [[GitHub]](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary)  <br/>
 Relevant implementation applicable to this dataset: [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland)
 
 - [Paddy Rice Maps South Korea (2017~2021)](https://github.com/Hyun-Woo-Jo/Paddy_Rice_Maps-South_Korea-2017_2021) <br />
