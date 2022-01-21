@@ -241,6 +241,7 @@ bean, green pea, tomato, white cabbage, alfalfa, red clover, beet, sugar beet, f
   - [COPERNICUS OPEN ACCESS HUB](https://scihub.copernicus.eu/dhus/#/home)
 
 ## Other Useful Data Collections
+- [Deep Learning on Satellite Imagery](https://github.com/robmarkcole/satellite-image-deep-learning)
 - [Radiant MLHub](https://mlhub.earth/datasets)
 - [Awesome-Remote-Sensing-Dataset](https://github.com/zhangbin0917/Awesome-Remote-Sensing-Dataset)
 - [awesome-remote-sensing](https://github.com/attibalazs/awesome-remote-sensing)
