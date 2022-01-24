@@ -5,7 +5,7 @@ List of useful datasets
 
 - [Mapillary Annotated](https://github.com/Agri-Hub/Mapillary_Annotation) <br/>
 Crop type labels from the freely available Land Parcel Identification System (LPIS) of the Netherlands are matched with all available Mapillary street-level images for the year 2017. [[GitHub]](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary)  <br/>
-Relevant implementation applicable to this dataset: [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland)
+Relevant implementations applicable to this dataset: [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland)
 
 - [Paddy Rice Maps South Korea (2017~2021)](https://github.com/Hyun-Woo-Jo/Paddy_Rice_Maps-South_Korea-2017_2021) <br />
  This dataset includes paddy rice maps in South Korea from 2017 to 2021 with 10m resolution. The paddy rice maps are a product of deep learning model predictions and DO NOT represent ground truth information. The predictions were made by analyzing time series Sentinel-1 images based on the deep learning architecture that integrates U-Net and RNNs layers desined by eGIS/RS lab, Korea University. The deep learning model has been trained on the farm map produced by the Korean Ministry of Agriculture, Food and Rural Affairs(MAFRA). The validation accuracy and Cohen's kappa value are 96.50%, 0.7857 each which were calculated from the 40% of the farm map. For more information please contact to the KU-eGIS/RS lab.
