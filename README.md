@@ -231,7 +231,10 @@ To explore the diurnal variations, radiometric and geometric accuracy of UAV-bas
 
 #### Analysis Ready Remote Sensing Data without labels <a name="agriculture_ard_no_labels"></a>
 - [Open Aerial Map - UAV Imagery](https://map.openaerialmap.org/#/-18.6328125,18.562947442888312,3?_k=ir0sq6) <a name="open_aerial_map_uav"></a> <br />
-  OpenAerialMap (OAM) is a set of tools for searching, sharing, and using openly licensed satellite and unmanned aerial vehicle (UAV) imagery. [[GitHub]](https://github.com/hotosm/OpenAerialMap)
+  OpenAerialMap (OAM) is a set of tools for searching, sharing, and using openly licensed satellite and unmanned aerial vehicle (UAV) imagery.
+      |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | UAV/Aircraft/Satellite | Images | Global | Multiple (e.g. Object Detection, Scene Classification) |-|[GitHub](https://github.com/hotosm/OpenAerialMap)|
  
  - [Open VHR images and geospatial data (Netherlands)](https://nationaalgeoregister.nl/) <a name="open_vhr_images_and_geospatial_netherlands"></a> <br />
   The National Georegister focuses primarily on the professional user. This can be a Geo- ICT specialist looking for datasets, services or other geo-information elements. But also a policy officer who wants to consult a map, a web developer or a student who develops a website or application and is looking for geo-information for it. Some example of available Datasets are: <br />
@@ -244,15 +247,22 @@ To explore the diurnal variations, radiometric and geometric accuracy of UAV-bas
 
 - [PlantVillage Dataset - Healthy and Unhealthy leaf images](https://data.mendeley.com/datasets/tywbtsjrjv/1) <a name="plant_village"></a> <br />
   In this data-set, 39 different classes of plant leaf and background images are available.  The data-set containing 61,486 images. The authors used six different augmentation techniques for increasing the data-set size. The techniques are image flipping, Gamma correction, noise injection, PCA color augmentation, rotation, and Scaling.  <br /> 
-  [[Paper]](https://arxiv.org/abs/1511.08060) [[GitHub]](https://github.com/spMohanty/PlantVillage-Dataset)
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Crowdsource | Grayscale/RGB Images | USA | Image Classification (healthy/unhealthy leaves) |[(2015)](https://arxiv.org/abs/1511.08060)|[GitHub](https://github.com/spMohanty/PlantVillage-Dataset)|
 
 - [iCrop Dataset - Street-level Imagery for Crop Classification](http://www.nwatch.top:8085/icrop/) <a name="icrop"></a> <br />
-  It is the first large, public, multiclass road view crop photo dataset, for the development of crop type detection with deep learning. [[Paper]](https://www.mdpi.com/1424-8220/21/4/1165)
+  It is the first large, public, multiclass road view crop photo dataset, for the development of crop type detection with deep learning. [[Paper]]()
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Streel-level | RGB Images | China | Crop Classification |[(2021)](https://www.mdpi.com/1424-8220/21/4/1165)|-|
 
 - [A Crop/Weed Field Image Dataset (CWFID)](https://github.com/cwfid/dataset/releases) <a name="crop_weed_field_image"></a>
 This dataset comprises field images, vegetation segmentation masks and crop/weed plant type annotations. The paper provides details, e.g. on the field setting, acquisition conditions, image and ground truth data format.
-[Paper](https://link.springer.com/chapter/10.1007/978-3-319-16220-1_8) [Github](https://github.com/cwfid/dataset)
-
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Field robot | RGB Images | Northern Germany | Crop / Weed Discrimination |[(2014)](https://link.springer.com/chapter/10.1007/978-3-319-16220-1_8)|[Github](https://github.com/cwfid/dataset)|
+    
 #### Geo-referenced labels <a name="agriculture_georef_labels"></a>
 - [Hand Labelled Crop/No-Crop dataset](https://zenodo.org/record/4680394#.YM85pm6EZpQ) <a name="hand_labelled_crop_no-crop"></a> <br />
   This dataset provides the hand-labelled crop / non-crop points used for training, which were created by labelling high-resolution satellite imagery in QGIS and Google Earth Pro. Data is available for Ethiopia, Sudan, Togo and Kenya. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Tseng_Learning_To_Predict_Crop_Type_From_Heterogeneous_Sparse_Labels_Using_CVPRW_2021_paper.html) [[Github]](https://github.com/nasaharvest/crop-maml). 
