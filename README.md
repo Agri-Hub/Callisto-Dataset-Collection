@@ -110,6 +110,7 @@ These labels are also accomompanied by Remote sensing data. More specifically, f
     - Meteorological monthly aggragated data (total precipitation and ground temperature at 2 m height from the [ERA5 dataset](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_MONTHLY) with a spatial analysis of 31 km/px) 
     - Topographic Data from the [Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM)](https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003) with 30m/px Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) analysis.
     
+    
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     |   Sentinel 1-2/ERA5/DEM  | Pixel | Global | Crop Classification | [(2021)](https://openreview.net/forum?id=JtjzUXPEaCu) |  [GitHub](https://github.com/nasaharvest/cropharvest) |
