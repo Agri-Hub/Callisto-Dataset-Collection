@@ -105,13 +105,14 @@ Crop type labels from the freely available Land Parcel Identification System (LP
 - [CropHarvest: a global satellite dataset for crop type classification](https://zenodo.org/record/5533193#.YgI9u_ixWUk) <a name="cropharvestt"></a> <br />
   The CropHarvest dataset is a crop dataset of geo-referenced labels with satellite data inputs, each consisting of latitude, longitude, the associated agricultural label, and a satellite pixel time series. It contains 90,480 datapoints from 20 datasets; some datasets come from existing public sources while some (e.g., Rwanda) are being made public with this publication. The datasets include 3 different types of labels: i) binary labels (crop/non crop) ii) FAO’s indicative crop classification labels, whcih resulted to 9 crop type groupings: cereals, vegetables and melons, fruits and nuts, oilseed crops, root/tuber crops, beverage and spice crops, leguminous crops, sugar crops, and other crops iii) crop-type labels, if available. <br />
 These labels are also accomompanied by Remote sensing data. More specifically, for each point/polygon in the dataset there is also 12-timestep signature of:
-    - Sentinel-2 monthly aggregated values (all bands except B1 and B10 + NDVI)
-    - Sentinel-1 monthly aggregated values (VV and VH)
-    - Meteorological monthly aggragated data (total precipitation and ground temperature at 2 m height from the [ERA5 dataset](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_MONTHLY) with a spatial analysis of 31 km/px) 
-    - Topographic Data from the [Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM)](https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003) with 30m/px Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) analysis.
-      |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
-      | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-      |   Sentinel 1-2/ERA5/DEM  | Pixel | Global | Crop Classification | [(2021)](https://openreview.net/forum?id=JtjzUXPEaCu) |  [GitHub](https://github.com/nasaharvest/cropharvest) |
+  - Sentinel-2 monthly aggregated values (all bands except B1 and B10 + NDVI)
+  - Sentinel-1 monthly aggregated values (VV and VH)
+  - Meteorological monthly aggragated data (total precipitation and ground temperature at 2 m height from the [ERA5 dataset](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_MONTHLY) with a spatial analysis of 31 km/px) 
+  - Topographic Data from the [Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM)](https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003) with 30m/px Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) analysis.
+
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    |   Sentinel 1-2/ERA5/DEM  | Pixel | Global | Crop Classification | [(2021)](https://openreview.net/forum?id=JtjzUXPEaCu) |  [GitHub](https://github.com/nasaharvest/cropharvest) |
 
 - [BigEarthNet dataset](http://bigearth.net/#downloads) <a name="bigearthnet_2021"></a>
   - BigEarthNet is a benchmark archive, consisting of 590,326 pairs of Sentinel-1 and Sentinel-2 image patches.
