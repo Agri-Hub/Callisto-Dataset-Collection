@@ -76,7 +76,7 @@ A list of datasets aiming to enable Artificial Intelligence applications that us
 
 ## Callisto Generated Datasets <a name="callisto_generated"></a>
 
-- [Mapillary Annotated](https://github.com/Agri-Hub/Mapillary_Annotation)  <a name="annotated_street_level_mapillary"></a><br />
+- [Annotated Street Level Images from Mapillary (published in MMM22)](https://github.com/Agri-Hub/Mapillary_Annotation)  <a name="annotated_street_level_mapillary"></a><br />
 Crop type labels from the freely available Land Parcel Identification System (LPIS) of the Netherlands are matched with all available Mapillary street-level images for the year 2017.
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   | Relevant implementations |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------:|
