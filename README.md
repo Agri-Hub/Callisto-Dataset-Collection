@@ -78,22 +78,22 @@ A list of datasets aiming to enable Artificial Intelligence applications that us
 
 - [Annotated Street Level Images from Mapillary (published in MMM22)](https://github.com/Agri-Hub/Mapillary_Annotation)  <a name="annotated_street_level_mapillary"></a><br />
 Crop type labels from the freely available Land Parcel Identification System (LPIS) of the Netherlands are matched with all available Mapillary street-level images for the year 2017.
-<img src="img/mapillary_annotated_01.jpg" alt="Mapillary Annotated - Dataset sample" height="250px"/>
+<img src="img/mapillary_annotated_01.jpg" alt="Mapillary Annotated - Dataset sample" height="250px"/>.
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   | Relevant implementations |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------:|
     | Street level images  | Image | Netherlands | Crop Classification | [(2022)](https://zenodo.org/record/5845512#.YfEqq_uxVH4) | [GitHub](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary) | [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland), [Scene Segmentation](https://github.com/mapillary/seamseg) |
 
 - [Paddy Rice Maps South Korea (2017~2021)](https://zenodo.org/record/5845896)  <a name="paddy_rice_south_korea_2017_2021"></a><br />
  This dataset includes paddy rice maps in South Korea from 2017 to 2021 with 10m resolution. The paddy rice maps are a product of deep learning model predictions and DO NOT represent ground truth information. The predictions were made by analyzing time series Sentinel-1 images based on the deep learning architecture that integrates U-Net and RNNs layers desined by eGIS/RS lab, Korea University. The deep learning model has been trained on the farm map produced by the Korean Ministry of Agriculture, Food and Rural Affairs(MAFRA). The validation accuracy and Cohen's kappa value are 96.50%, 0.7857 each which were calculated from the 40% of the farm map. For more information please contact to the KU-eGIS/RS lab.
- <img src="img/paddy_rice_DL.jpg" alt="Paddy Rice mapping (binary) with DL" height="250px"/>
+ <img src="img/paddy_rice_DL.jpg" alt="Paddy Rice mapping (binary) with DL" height="250px"/>.
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel 2| GeoTIFF | South Korea | Paddy Rice Mapping | - | [GitHub](https://github.com/Hyun-Woo-Jo/Paddy_Rice_Maps-South_Korea-2017_2021) |
 
     
-- [Paddy Rice Labeling Sites in South Korea (2018)](https://zenodo.org/record/5846018) <br /> <a name="paddy_rice_labelling_south_korea_2018"></a><br />
+- [Paddy Rice Labeling Sites in South Korea (2018)](https://zenodo.org/record/5846018) <br /> <a name="paddy_rice_labelling_south_korea_2018"></a>
   The paddy rice was visually interpreted at 30 sites in South Korea. The sites were selected at each province by a proportional stratified sampling method according to the paddy rice area statistics (Statistics Korea), so the dataset can be used for the validation on model generalization over the entire country. The paddy rice areas were visually interpreted by using Google Earth Pro and street view services (https://map.naver.com, https://map.kakao.com) and updated to the state of 2018. <br>
-<img src="img/paddy_rice_visual_interp.jpg" alt="Paddy Rice Labelling Sites (Visual Interpretation)" height="250px"/>
+<img src="img/paddy_rice_visual_interp.jpg" alt="Paddy Rice Labelling Sites (Visual Interpretation)" height="250px"/>.
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel 2| GeoTIFF | South Korea | Paddy Rice Validation | - | - |
