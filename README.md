@@ -76,12 +76,13 @@ A list of datasets aiming to enable Artificial Intelligence applications that us
 
 ## Callisto Generated Datasets <a name="callisto_generated"></a>
 
-- [Mapillary Annotated](https://github.com/Agri-Hub/Mapillary_Annotation)  <a name="annotated_street_level_mapillary"></a><br />
+- [Annotated Street Level Images from Mapillary (published in MMM22)](https://github.com/Agri-Hub/Mapillary_Annotation)  <a name="annotated_street_level_mapillary"></a><br />
 Crop type labels from the freely available Land Parcel Identification System (LPIS) of the Netherlands are matched with all available Mapillary street-level images for the year 2017.
+![Mapillary Annotated dataset sample](img/mapillary_annotated_01.jpg)
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   | Relevant implementations |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------:|
     | Street level images  | Image | Netherlands | Crop Classification | [(2022)](https://zenodo.org/record/5845512#.YfEqq_uxVH4) | [GitHub](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary) | [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland), [Scene Segmentation](https://github.com/mapillary/seamseg) |
-    
+
 - [Paddy Rice Maps South Korea (2017~2021)](https://zenodo.org/record/5845896)  <a name="paddy_rice_south_korea_2017_2021"></a><br />
  This dataset includes paddy rice maps in South Korea from 2017 to 2021 with 10m resolution. The paddy rice maps are a product of deep learning model predictions and DO NOT represent ground truth information. The predictions were made by analyzing time series Sentinel-1 images based on the deep learning architecture that integrates U-Net and RNNs layers desined by eGIS/RS lab, Korea University. The deep learning model has been trained on the farm map produced by the Korean Ministry of Agriculture, Food and Rural Affairs(MAFRA). The validation accuracy and Cohen's kappa value are 96.50%, 0.7857 each which were calculated from the 40% of the farm map. For more information please contact to the KU-eGIS/RS lab.
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
@@ -101,6 +102,19 @@ Crop type labels from the freely available Land Parcel Identification System (LP
 
 ### Agriculture <a name="agriculture"></a>
 #### Analysis Ready Remote Sensing Data with labels <a name="agriculture_ard_labels"></a>
+
+- [CropHarvest: a global satellite dataset for crop type classification](https://zenodo.org/record/5533193#.YgI9u_ixWUk) <a name="cropharvestt"></a> <br />
+  The CropHarvest dataset is a crop dataset of geo-referenced labels with satellite data inputs, each consisting of latitude, longitude, the associated agricultural label, and a satellite pixel time series. It contains 90,480 datapoints from 20 datasets; some datasets come from existing public sources while some (e.g., Rwanda) are being made public with this publication. The datasets include 3 different types of labels: i) binary labels (crop/non crop) ii) FAO’s indicative crop classification labels, whcih resulted to 9 crop type groupings: cereals, vegetables and melons, fruits and nuts, oilseed crops, root/tuber crops, beverage and spice crops, leguminous crops, sugar crops, and other crops iii) crop-type labels, if available. <br />
+These labels are also accomompanied by Remote sensing data. More specifically, for each point/polygon in the dataset there is also 12-timestep signature of:
+  - Sentinel-2 monthly aggregated values (all bands except B1 and B10 + NDVI)
+  - Sentinel-1 monthly aggregated values (VV and VH)
+  - Meteorological monthly aggragated data (total precipitation and ground temperature at 2 m height from the [ERA5 dataset](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_MONTHLY) with a spatial analysis of 31 km/px)
+  - Topographic Data from the [Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM)](https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003) with 30m/px Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) analysis.
+
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    |   Sentinel 1-2/ERA5/DEM  | Pixel | Global | Crop Classification | [(2021)](https://openreview.net/forum?id=JtjzUXPEaCu) |  [GitHub](https://github.com/nasaharvest/cropharvest) |
+
 - [BigEarthNet dataset](http://bigearth.net/#downloads) <a name="bigearthnet_2021"></a>
   - BigEarthNet is a benchmark archive, consisting of 590,326 pairs of Sentinel-1 and Sentinel-2 image patches.
   - To construct BigEarthNet with Sentinel-2 image patches (called as BigEarthNet-S2 now, previously BigEarthNet), 125 Sentinel-2 tiles acquired between June 2017 and May 2018 over the 10 countries (Austria, Belgium, Finland, Ireland, Kosovo, Lithuania, Luxembourg, Portugal, Serbia, Switzerland) of Europe were initially selected. All the tiles were atmospherically corrected by the Sentinel-2 Level 2A product generation and formatting tool (sen2cor). Then, they were divided into 590,326 non-overlapping image patches. Each image patch was annotated by the multiple land-cover classes (i.e., multi-labels) that were provided from the CORINE Land Cover database of the year 2018 (CLC 2018). The labels in BigEarthNet belong to the initial release of the labels in 2018. 
