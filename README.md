@@ -77,21 +77,23 @@ A list of datasets aiming to enable Artificial Intelligence applications that us
 ## Callisto Generated Datasets <a name="callisto_generated"></a>
 
 - [Annotated Street Level Images from Mapillary (published in MMM22)](https://github.com/Agri-Hub/Mapillary_Annotation)  <a name="annotated_street_level_mapillary"></a><br />
-Crop type labels from the freely available Land Parcel Identification System (LPIS) of the Netherlands are matched with all available Mapillary street-level images for the year 2017.
+Crop type labels from the freely available Land Parcel Identification System (LPIS) of the Netherlands are matched with all available Mapillary street-level images for the year 2017. <br />
+<img src="img/mapillary_annotated_01.jpg" alt="Mapillary Annotated - Dataset sample" height="250px"/> <br/>
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   | Relevant implementations |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------:|
     | Street level images  | Image | Netherlands | Crop Classification | [(2022)](https://zenodo.org/record/5845512#.YfEqq_uxVH4) | [GitHub](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary) | [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland), [Scene Segmentation](https://github.com/mapillary/seamseg) |
-    
+
 - [Paddy Rice Maps South Korea (2017~2021)](https://zenodo.org/record/5845896)  <a name="paddy_rice_south_korea_2017_2021"></a><br />
- This dataset includes paddy rice maps in South Korea from 2017 to 2021 with 10m resolution. The paddy rice maps are a product of deep learning model predictions and DO NOT represent ground truth information. The predictions were made by analyzing time series Sentinel-1 images based on the deep learning architecture that integrates U-Net and RNNs layers desined by eGIS/RS lab, Korea University. The deep learning model has been trained on the farm map produced by the Korean Ministry of Agriculture, Food and Rural Affairs(MAFRA). The validation accuracy and Cohen's kappa value are 96.50%, 0.7857 each which were calculated from the 40% of the farm map. For more information please contact to the KU-eGIS/RS lab.
+ This dataset includes paddy rice maps in South Korea from 2017 to 2021 with 10m resolution. The paddy rice maps are a product of deep learning model predictions and DO NOT represent ground truth information. The predictions were made by analyzing time series Sentinel-1 images based on the deep learning architecture that integrates U-Net and RNNs layers desined by eGIS/RS lab, Korea University. The deep learning model has been trained on the farm map produced by the Korean Ministry of Agriculture, Food and Rural Affairs(MAFRA). The validation accuracy and Cohen's kappa value are 96.50%, 0.7857 each which were calculated from the 40% of the farm map. For more information please contact to the KU-eGIS/RS lab. <br />
+ <img src="img/paddy_rice_DL.jpg" alt="Paddy Rice mapping (binary) with DL" height="250px"/><br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel 2| GeoTIFF | South Korea | Paddy Rice Mapping | - | [GitHub](https://github.com/Hyun-Woo-Jo/Paddy_Rice_Maps-South_Korea-2017_2021) |
 
     
-- [Paddy Rice Labeling Sites in South Korea (2018)](https://zenodo.org/record/5846018) <br /> <a name="paddy_rice_labelling_south_korea_2018"></a><br />
-  The paddy rice was visually interpreted at 30 sites in South Korea. The sites were selected at each province by a proportional stratified sampling method according to the paddy rice area statistics (Statistics Korea), so the dataset can be used for the validation on model generalization over the entire country. The paddy rice areas were visually interpreted by using Google Earth Pro and street view services (https://map.naver.com, https://map.kakao.com) and updated to the state of 2018.
-
+- [Paddy Rice Labeling Sites in South Korea (2018)](https://zenodo.org/record/5846018) <br /> <a name="paddy_rice_labelling_south_korea_2018"></a>
+  The paddy rice was visually interpreted at 30 sites in South Korea. The sites were selected at each province by a proportional stratified sampling method according to the paddy rice area statistics (Statistics Korea), so the dataset can be used for the validation on model generalization over the entire country. The paddy rice areas were visually interpreted by using Google Earth Pro and street view services (https://map.naver.com, https://map.kakao.com) and updated to the state of 2018. <br/>
+<img src="img/paddy_rice_visual_interp.jpg" alt="Paddy Rice Labelling Sites (Visual Interpretation)" height="250px"/><br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel 2| GeoTIFF | South Korea | Paddy Rice Validation | - | - |
@@ -101,13 +103,13 @@ Crop type labels from the freely available Land Parcel Identification System (LP
 
 ### Agriculture <a name="agriculture"></a>
 #### Analysis Ready Remote Sensing Data with labels <a name="agriculture_ard_labels"></a>
-  
+
 - [CropHarvest: a global satellite dataset for crop type classification](https://zenodo.org/record/5533193#.YgI9u_ixWUk) <a name="cropharvestt"></a> <br />
   The CropHarvest dataset is a crop dataset of geo-referenced labels with satellite data inputs, each consisting of latitude, longitude, the associated agricultural label, and a satellite pixel time series. It contains 90,480 datapoints from 20 datasets; some datasets come from existing public sources while some (e.g., Rwanda) are being made public with this publication. The datasets include 3 different types of labels: i) binary labels (crop/non crop) ii) FAO’s indicative crop classification labels, whcih resulted to 9 crop type groupings: cereals, vegetables and melons, fruits and nuts, oilseed crops, root/tuber crops, beverage and spice crops, leguminous crops, sugar crops, and other crops iii) crop-type labels, if available. <br />
 These labels are also accomompanied by Remote sensing data. More specifically, for each point/polygon in the dataset there is also 12-timestep signature of:
   - Sentinel-2 monthly aggregated values (all bands except B1 and B10 + NDVI)
   - Sentinel-1 monthly aggregated values (VV and VH)
-  - Meteorological monthly aggragated data (total precipitation and ground temperature at 2 m height from the [ERA5 dataset](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_MONTHLY) with a spatial analysis of 31 km/px) 
+  - Meteorological monthly aggragated data (total precipitation and ground temperature at 2 m height from the [ERA5 dataset](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_MONTHLY) with a spatial analysis of 31 km/px)
   - Topographic Data from the [Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM)](https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003) with 30m/px Shuttle Radar Topography Mission (SRTM) Digital Elevation Model (DEM) analysis.
 
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
@@ -244,7 +246,10 @@ To explore the diurnal variations, radiometric and geometric accuracy of UAV-bas
 
 #### Analysis Ready Remote Sensing Data without labels <a name="agriculture_ard_no_labels"></a>
 - [Open Aerial Map - UAV Imagery](https://map.openaerialmap.org/#/-18.6328125,18.562947442888312,3?_k=ir0sq6) <a name="open_aerial_map_uav"></a> <br />
-  OpenAerialMap (OAM) is a set of tools for searching, sharing, and using openly licensed satellite and unmanned aerial vehicle (UAV) imagery. [[GitHub]](https://github.com/hotosm/OpenAerialMap)
+  OpenAerialMap (OAM) is a set of tools for searching, sharing, and using openly licensed satellite and unmanned aerial vehicle (UAV) imagery.
+      |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | UAV/Aircraft/Satellite | Images | Global | Multiple (e.g. Object Detection, Scene Classification) |-|[GitHub](https://github.com/hotosm/OpenAerialMap)|
  
  - [Open VHR images and geospatial data (Netherlands)](https://nationaalgeoregister.nl/) <a name="open_vhr_images_and_geospatial_netherlands"></a> <br />
   The National Georegister focuses primarily on the professional user. This can be a Geo- ICT specialist looking for datasets, services or other geo-information elements. But also a policy officer who wants to consult a map, a web developer or a student who develops a website or application and is looking for geo-information for it. Some example of available Datasets are: <br />
@@ -257,15 +262,22 @@ To explore the diurnal variations, radiometric and geometric accuracy of UAV-bas
 
 - [PlantVillage Dataset - Healthy and Unhealthy leaf images](https://data.mendeley.com/datasets/tywbtsjrjv/1) <a name="plant_village"></a> <br />
   In this data-set, 39 different classes of plant leaf and background images are available.  The data-set containing 61,486 images. The authors used six different augmentation techniques for increasing the data-set size. The techniques are image flipping, Gamma correction, noise injection, PCA color augmentation, rotation, and Scaling.  <br /> 
-  [[Paper]](https://arxiv.org/abs/1511.08060) [[GitHub]](https://github.com/spMohanty/PlantVillage-Dataset)
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Crowdsource | Grayscale/RGB Images | USA | Image Classification (healthy/unhealthy leaves) |[(2015)](https://arxiv.org/abs/1511.08060)|[GitHub](https://github.com/spMohanty/PlantVillage-Dataset)|
 
 - [iCrop Dataset - Street-level Imagery for Crop Classification](http://www.nwatch.top:8085/icrop/) <a name="icrop"></a> <br />
-  It is the first large, public, multiclass road view crop photo dataset, for the development of crop type detection with deep learning. [[Paper]](https://www.mdpi.com/1424-8220/21/4/1165)
+  It is the first large, public, multiclass road view crop photo dataset, for the development of crop type detection with deep learning.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Streel-level | RGB Images | China | Crop Classification |[(2021)](https://www.mdpi.com/1424-8220/21/4/1165)|-|
 
 - [A Crop/Weed Field Image Dataset (CWFID)](https://github.com/cwfid/dataset/releases) <a name="crop_weed_field_image"></a>
 This dataset comprises field images, vegetation segmentation masks and crop/weed plant type annotations. The paper provides details, e.g. on the field setting, acquisition conditions, image and ground truth data format.
-[Paper](https://link.springer.com/chapter/10.1007/978-3-319-16220-1_8) [Github](https://github.com/cwfid/dataset)
-
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Field robot | RGB Images | Northern Germany | Crop / Weed Discrimination |[(2015)](https://link.springer.com/chapter/10.1007/978-3-319-16220-1_8)|[Github](https://github.com/cwfid/dataset)|
+    
 #### Geo-referenced labels <a name="agriculture_georef_labels"></a>
 - [Hand Labelled Crop/No-Crop dataset](https://zenodo.org/record/4680394#.YM85pm6EZpQ) <a name="hand_labelled_crop_no-crop"></a> <br />
   This dataset provides the hand-labelled crop / non-crop points used for training, which were created by labelling high-resolution satellite imagery in QGIS and Google Earth Pro. Data is available for Ethiopia, Sudan, Togo and Kenya. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Tseng_Learning_To_Predict_Crop_Type_From_Heterogeneous_Sparse_Labels_Using_CVPRW_2021_paper.html) [[Github]](https://github.com/nasaharvest/crop-maml). 
