@@ -253,7 +253,7 @@ To explore the diurnal variations, radiometric and geometric accuracy of UAV-bas
  
  - [Open VHR images and geospatial data (Netherlands)](https://nationaalgeoregister.nl/) <a name="open_vhr_images_and_geospatial_netherlands"></a> <br />
   The National Georegister focuses primarily on the professional user. This can be a Geo- ICT specialist looking for datasets, services or other geo-information elements. But also a policy officer who wants to consult a map, a web developer or a student who develops a website or application and is looking for geo-information for it. Some example of available Datasets are: <br />
-    - [Orthoimages (Web service)](https://www.nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search# /map?facet.q=keyword%2Flandelijke%2520voorziening%2520beeldmateriaal&resultType=details&sortBy=relevance&any=Luchtfoto&fast=index&_content_type=json&from=1&to=50) <a name="orthoimages_netherlands"></a> 
+    - [Orthoimages (Web service)](https://www.nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search#/map?facet.q=keyword%2Flandelijke%2520voorziening%2520beeldmateriaal&resultType=details&sortBy=relevance&any=Luchtfoto&fast=index&_content_type=json&from=1&to=50) <a name="orthoimages_netherlands"></a> 
     - [Lidar data (Current Altitude Data)](https://www.nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search#/metadata/41daef8b-155e-4608-b49c-c87ea45d931c) <a name="lidar_data_netherlands"></a> 
     - [Soil Data (physical characteristics)](https://www.wur.nl/nl/show/Bodemfysische-Eenhedenkaart-BOFEK2020.htm) <a name="soil_data_physical_netherlands"></a> 
     - [VHR Satellite Data](https://satellietdataportaal.nl/) Note: It is only accessible from within The Netherlands. <a name="vhr_satellite_netherlands"></a> 
