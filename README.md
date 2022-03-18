@@ -53,6 +53,7 @@ A list of datasets aiming to enable Artificial Intelligence applications that us
         5. [UAV-based Multispectral & Thermal dataset for exploring the diurnal variability & geometric accuracy for precision agriculture](#uav_diurnal_variability)
         6. [senseFly Datasets](#sensefly)
         7. [A Crop/Weed Field Image Dataset (CWFID)](#crop_weed_field_image)
+        8. [LandCover.ai](#landcoverai)
     7. [Crop phenology annotated datasets](#crop_phenology_annotated)
         1. [DWD_RECENT](#dwd_recent)
         2. [DWD_ARCHIVE](#dwd_archive)
@@ -311,6 +312,9 @@ bean, green pea, tomato, white cabbage, alfalfa, red clover, beet, sugar beet, f
  - [PEP725](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/) <a name="pep725"></a><br />
  The main objective of PEP725 is to promote and facilitate phenological research by delivering a pan European phenological database with an open, unrestricted data access for science, research and education ([datapolicy](http://www.pep725.eu/downloads/PEP725_Data_Use_Policy_201805.pdf)). [[Paper]](https://doi.org/10.1007/s00484-018-1512-8)
 
+ - [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water
+and Roads from Aerial Imagery](https://www.kaggle.com/datasets/adrianboguszewski/landcoverai) <a name="landcoverai"></a><br />
+Semantic segmentation dataset for land cover classification based on aerial RGB images. Contains four manually annotated land cover classes: buildings, woodlands, water, roads. It covers 216 km² over Poland, with 25 cm / 50 cm resolution. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf)
 
 ### Land change <a name="land"></a>
 #### Analysis Ready Remote Sensing Data  with labels <a name="land_ard_labels"></a>
