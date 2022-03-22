@@ -177,7 +177,7 @@ The dataset is cataloged in four tiles. These tiles are smaller than the origina
   
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    |  Sentinel 2  | Sentinel tiles (Images) | Austria | Crop Classification | [(2020)](https://ieeexplore.ieee.org/abstract/document/9408357)| - |
+    |  Sentinel 2  | Pixel | Austria | Crop Classification | [(2020)](https://ieeexplore.ieee.org/abstract/document/9408357)| - |
         
 - [Sen4AgriNet](https://www.sen4agrinet.space.noa.gr/) <a name="sen4agrinet"></a>  <br />
   The Sen4AgriNet dataset is built using Sentinel-2 images from different timestamps include all spectral bands that have different spatial resolution.
