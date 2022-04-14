@@ -281,10 +281,16 @@ This dataset comprises field images, vegetation segmentation masks and crop/weed
     
 #### Geo-referenced labels <a name="agriculture_georef_labels"></a>
 - [Hand Labelled Crop/No-Crop dataset](https://zenodo.org/record/4680394#.YM85pm6EZpQ) <a name="hand_labelled_crop_no-crop"></a> <br />
-  This dataset provides the hand-labelled crop / non-crop points used for training, which were created by labelling high-resolution satellite imagery in QGIS and Google Earth Pro. Data is available for Ethiopia, Sudan, Togo and Kenya. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Tseng_Learning_To_Predict_Crop_Type_From_Heterogeneous_Sparse_Labels_Using_CVPRW_2021_paper.html) [[Github]](https://github.com/nasaharvest/crop-maml). 
+  This dataset provides the hand-labelled crop / non-crop points used for training, which were created by labelling high-resolution satellite imagery in QGIS and Google Earth Pro. Data is available for Ethiopia, Sudan, Togo and Kenya.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Photo-interpretation | Shapefiles | Africa | Crop Discrimination |[(2021)](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Tseng_Learning_To_Predict_Crop_Type_From_Heterogeneous_Sparse_Labels_Using_CVPRW_2021_paper.html|[Github](https://github.com/nasaharvest/crop-maml)|
 
 - [LEM+ dataset](https://data.mendeley.com/datasets/vz6d7tw87f/1) <a name="hand_labelled_crop_no-crop"></a> <br />
-  The dataset, in ESRI shapefile format (spatial reference system: WGS 84, EPSG: 4326), provides monthly land use information about 1854 fields from October 2019 to September 2020 from Luís Eduardo Magalhães (LEM) and other municipalities in the west of Bahia state, Brazil. The majority of the 16 land uses classes are related to crops. [[Paper]](https://www.sciencedirect.com/science/article/pii/S2352340920314359)
+  The dataset, in ESRI shapefile format (spatial reference system: WGS 84, EPSG: 4326), provides monthly land use information about 1854 fields from October 2019 to September 2020 from Luís Eduardo Magalhães (LEM) and other municipalities in the west of Bahia state, Brazil. The majority of the 16 land uses classes are related to crops. [[Paper]]()
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Field visits | Shapefiles | Brazil | Crop Monitoring |[(2020)](https://www.sciencedirect.com/science/article/pii/S2352340920314359)|-|
 
 - [Land Cover Map (Korean Ministry of Environment)](https://egis.me.go.kr/main.do) <a name="land_cover_map_korea_environment"></a> <br />
   Korean Ministry of Environment provides three types of land cover map(level-1, level-2, level-3) according to its scale. Level-3 land cover map, the most detailed product, provides approximately 1m resolution by interpreting aerial photo(0.25m), Kompsat-2(1m) and Kompsat-3(0.7m) satellite images. It classifies 7 major land covers (Used area, Agricultural Area, Forest, Grassland, Wet land, Bareland, Water) and subdivides them into 41 classes. The level-3 product was produced at each province with several years of interval until 2018, and the most recent product was released at 2019 covering the entire nation with the imageries of 2018. 
@@ -292,29 +298,41 @@ The data is available only for the registered domestic researchers. Therefore, p
    - Level-1 product: 30m resolution, raster format
    - Level-2 product: 5m resolution, shape format
    - Level-3 product: 1m resolution, shape format
-
-- [Farm Map (Korean Ministry of Agriculture, Food and Rural Affairs)](http://data.nsdi.go.kr/dataset/20210707ds00001) <a name="farm_map_korea_agriculture"></a> <br />
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Farmer's Declarations | Shapefiles | South Korea | Crop Monitoring |-|-|
+    
+<!-- - [Farm Map (Korean Ministry of Agriculture, Food and Rural Affairs)](http://data.nsdi.go.kr/dataset/20210707ds00001) <a name="farm_map_korea_agriculture"></a> <br />
   Korean Ministry of Agriculture, Food and Rural Affairs(MAFRA) provides farm map, which was produced by a visual interpretation on aerial photos and satellite images based on the parcel boundary of national GIS data. It classifies 6 major parcel types (Rice paddy, Field, Orchard, Cultivation structure, Ginseng, Fallow ground). The dataset was produced at different year for each administration boundary. 
 The data is available only for the registered domestic researchers. Therefore, please ask for cooperation to the Korean researcher in order to use it for the research. 
-
+ -->
+ 
  - [Open Labelled Data (Netherlands)](https://nationaalgeoregister.nl/) <a name="open_vhr_images_and_geospatial_netherlands"></a> <br />
   The National Georegister focuses primarily on the professional user. This can be a Geo- ICT specialist looking for datasets, services or other geo-information elements. But also a policy officer who wants to consult a map, a web developer or a student who develops a website or application and is looking for geo-information for it. <br />
     - [Land Parcel Identification Systems (LPIS)](http://nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search#/metadata/b812a145-b4fe-4331-8dc6-d914327a87ff) <a name="lpis_netherlands"></a>
     - [Reference Parcels](https://www.nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search;jsessionid=38BDD1EC9752E053336C3A2B28851B8B#/metadata/4fa03182-df71-4c39-87da-e7d5c0b82d88) <a name="reference_parcels_netherlands"></a>
-
-- [DWD_RECENT](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/) <a name="dwd_recent"></a>  <br />
- DWD Climate Data Center (CDC): Phenological observations of crops from sowing to harvest, in Germany. The temporal coverage is rolling, with a window of 500 days (ending always yesterday), the soatualk  and the crops of interest are: meadows, winter wheat, winter rye, winter barley, winter oilseed rape, summer wheat, spring barley, oat, sunflower, maize, beet, sugar beet, fodder beet. For more information click [here](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/recent/DESCRIPTION_obsgermany-phenology-annual_reporters-crops-recent_en.pdf).
-
- - [DWD_ARCHIVE](http://www.pep725.eu/data_download/data_selection.php) <a name="dwd_archive"></a> <br />
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Farmer's Declarations | GeoDatabase | The Netherlands | Crop Monitoring |-|-|
+    
+- [DWD_RECENT](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/recent/) <a name="dwd_recent"></a>  <br />
+ DWD Climate Data Center (CDC): Phenological observations of crops from sowing to harvest, in Germany. The temporal coverage is rolling, with a window of 500 days (ending always yesterday), and the crops of interest are: meadows, winter wheat, winter rye, winter barley, winter oilseed rape, summer wheat, spring barley, oat, sunflower, maize, beet, sugar beet, fodder beet. For more information click [here](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/recent/DESCRIPTION_obsgermany-phenology-annual_reporters-crops-recent_en.pdf).
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Field Observations | CSV files | Germany | Crop Phenology |-|-|
+    
+ - [DWD_ARCHIVE](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/historical/) <a name="dwd_archive"></a> <br />
  DWD Climate Data Center (CDC): Historical phenological observations of crops from sowing to harvest, in Germany. It contatins data from 1951-01-01 until 2017-12-31 for dozins of crops (meadows, winter wheat, winter rye, winter barley, winter oilseed rape, summer wheat, spring barley, oat, sunflower, maize, potato, early potato (pregerminated), early potato (non pregerminated), late potato, green
 bean, green pea, tomato, white cabbage, alfalfa, red clover, beet, sugar beet, fodder beet). For more information click [here](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/historical/DESCRIPTION_obsgermany-phenology-annual_reporters-crops-historical_en.pdf).
- 
- - [PEP725](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/) <a name="pep725"></a><br />
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Field Observations | CSV files | Germany | Crop Phenology |-|-|
+    
+<!--  - [PEP725]( http://www.pep725.eu/data_download/data_selection.php) <a name="pep725"></a><br />
  The main objective of PEP725 is to promote and facilitate phenological research by delivering a pan European phenological database with an open, unrestricted data access for science, research and education ([datapolicy](http://www.pep725.eu/downloads/PEP725_Data_Use_Policy_201805.pdf)). [[Paper]](https://doi.org/10.1007/s00484-018-1512-8)
-
- - [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water
-and Roads from Aerial Imagery](https://www.kaggle.com/datasets/adrianboguszewski/landcoverai) <a name="landcoverai"></a><br />
-Semantic segmentation dataset for land cover classification based on aerial RGB images. Contains four manually annotated land cover classes: buildings, woodlands, water, roads. It covers 216 km² over Poland, with 25 cm / 50 cm resolution. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf)
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | -| - | - | - |-|-| -->
 
 ### Land change <a name="land"></a>
 #### Analysis Ready Remote Sensing Data  with labels <a name="land_ard_labels"></a>
@@ -395,6 +413,13 @@ AU-AIR has several features: <br />
     - Frames are also labelled with time, GPS, IMU, altitude, linear velocities of the UAV
 [[Paper]](https://arxiv.org/abs/2008.02834) [[GitHub]](https://github.com/bozcani/auairdataset)
      
+      - [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water
+and Roads from Aerial Imagery](https://www.kaggle.com/datasets/adrianboguszewski/landcoverai) <a name="landcoverai"></a><br />
+Semantic segmentation dataset for land cover classification based on aerial RGB images. Contains four manually annotated land cover classes: buildings, woodlands, water, roads. It covers 216 km² over Poland, with 25 cm / 50 cm resolution. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf)
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Aerial Photos (RGB) | GeoTiffs | Poland | Land Cover Mapping |[(2021)](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf)|-
+    
 #### Analysis Ready Remote Sensing Data without labels  <a name="other_ard_no_labels"></a>
 
 #### In-situ & Ground-level datasets <a name="other_insitu"></a>
