@@ -298,6 +298,7 @@ The data is available only for the registered domestic researchers. Therefore, p
    - Level-1 product: 30m resolution, raster format
    - Level-2 product: 5m resolution, shape format
    - Level-3 product: 1m resolution, shape format
+
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Farmer's Declarations | Shapefiles | South Korea | Crop Monitoring |-|-|
@@ -311,6 +312,7 @@ The data is available only for the registered domestic researchers. Therefore, p
   The National Georegister focuses primarily on the professional user. This can be a Geo- ICT specialist looking for datasets, services or other geo-information elements. But also a policy officer who wants to consult a map, a web developer or a student who develops a website or application and is looking for geo-information for it. <br />
     - [Land Parcel Identification Systems (LPIS)](http://nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search#/metadata/b812a145-b4fe-4331-8dc6-d914327a87ff) <a name="lpis_netherlands"></a>
     - [Reference Parcels](https://www.nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search;jsessionid=38BDD1EC9752E053336C3A2B28851B8B#/metadata/4fa03182-df71-4c39-87da-e7d5c0b82d88) <a name="reference_parcels_netherlands"></a>
+    
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Farmer's Declarations | GeoDatabase | The Netherlands | Crop Monitoring |-|-|
