@@ -311,21 +311,20 @@ The data is available only for the registered domestic researchers. Therefore, p
  - [Open Labelled Data (Netherlands)](https://nationaalgeoregister.nl/) <a name="open_vhr_images_and_geospatial_netherlands"></a> <br />
   The National Georegister focuses primarily on the professional user. This can be a Geo- ICT specialist looking for datasets, services or other geo-information elements. But also a policy officer who wants to consult a map, a web developer or a student who develops a website or application and is looking for geo-information for it. <br />
     - [Land Parcel Identification Systems (LPIS)](http://nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search#/metadata/b812a145-b4fe-4331-8dc6-d914327a87ff) <a name="lpis_netherlands"></a>
-    - [Reference Parcels](https://www.nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search;jsessionid=38BDD1EC9752E053336C3A2B28851B8B#/metadata/4fa03182-df71-4c39-87da-e7d5c0b82d88) <a name="reference_parcels_netherlands"></a> <br />
+    - [Reference Parcels](https://www.nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search;jsessionid=38BDD1EC9752E053336C3A2B28851B8B#/metadata/4fa03182-df71-4c39-87da-e7d5c0b82d88) <a name="reference_parcels_netherlands"></a> 
+    
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Farmer's Declarations | GeoDatabase | The Netherlands | Crop Monitoring |-|-|
 
  - [Open Labelled Data (Flanders, Belgium)](https://www.geopunt.be/catalogus/datasetfolder/47c5540f-bf7c-45fc-9a74-8e60547cde82) <a name="open_vhr_images_and_geospatial_belgium"></a> <br />
-   Overview of the parcels in agricultural use on the final date of submission of the single application that year. The inventory also includes pools, wooded areas and agricultural production facilities (yards with stables and buildings). <br />
-    
+   Overview of the parcels in agricultural use on the final date of submission of the single application that year. The inventory also includes pools, wooded areas and agricultural production facilities (yards with stables and buildings). <br />  
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Farmer's Declarations | Shapefile, Gml (2.1.2) | Flanders, Belgium | Crop Monitoring |-|-|
 
  - [Open labelled data (Denmark)](https://landbrugsgeodata.fvm.dk/) <a name="open_vhr_images_and_geospatial_denmark"></a> <br />
-
-  This data collection contatins a plethor of map data that the Danish Agriculture Authority has made openly avaialble. Specifically, under the _Markblokke_ you can find the Land parcel Identification System (LPIS) data collection and under the _Marker_ section you can find the Geo-spatial Aid Application (GSAA) data collection which contains parcel geometries accompanied by their crop type, from 2018 to today. More information are avaialble about the [GSAA files](https://collections.eurodatacube.com/denmark-gsaa/readme.html) where uou can also find you can find a description of crop names [CoprDescription](https://collections.eurodatacube.com/denmark-gsaa/GSAA_DK_Description_of_crop_names.xlsx) <br />
+  This data collection contatins a plethor of map data that the Danish Agriculture Authority has made openly avaialble. Specifically, under the _Markblokke_ you can find the Land parcel Identification System (LPIS) data collection and under the _Marker_ section you can find the Geo-spatial Aid Application (GSAA) data collection which contains parcel geometries accompanied by their crop type, from 2018 to today. More information are avaialble about the [GSAA files](https://collections.eurodatacube.com/denmark-gsaa/readme.html) where uou can also find you can find a description of crop names [CoprDescription](https://collections.eurodatacube.com/denmark-gsaa/GSAA_DK_Description_of_crop_names.xlsx). <br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Farmer's Declarations | Shapefile | Denmark | Crop Monitoring |-|-|
