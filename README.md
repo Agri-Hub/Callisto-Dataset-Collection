@@ -520,8 +520,8 @@ Explore how senseFly drone solutions are employed around the globe — from topo
 Curated by Beyond Center of EO Research and Satellite Remote Sensing, IAASARS, National Observatory of Athens
 
 <p float="left">
-  <img src="img/callisto_logo.jpg)" width="100" />
-  <img src="img/noa_beyond_logo.png" width="100" /> 
+  <img src="img/callisto_logo.jpg" width="200" />
+  <img src="img/noa_beyond_logo.png" width="200" /> 
 </p>
 
 
