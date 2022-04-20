@@ -522,7 +522,9 @@ This work has been supported by the CALLISTO project which has been funded by EU
 Curated by the Beyond Center of EO Research and Satellite Remote Sensing, IAASARS, National Observatory of Athens
 
 Alkiviadis Koukos (akoukos@noa.gr)
+
 George Choumos (g.choumos@noa.gr)
+
 Vasileios Sitokonstantinou (vsito@noa.gr)
 
 <p float="left">
