@@ -516,3 +516,5 @@ Explore how senseFly drone solutions are employed around the globe — from topo
 - [Remote sensing resources](https://github.com/jqtrde/remote) <a name="remote_sensing_resources"></a>
 
 
+## Acknowledgements
+
