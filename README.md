@@ -519,5 +519,10 @@ Explore how senseFly drone solutions are employed around the globe — from topo
 ## Acknowledgements
 Curated by Beyond Center of EO Research and Satellite Remote Sensing, IAASARS, National Observatory of Athens
 
-![callisto](img/callisto_logo.png)
-![noa](img/noa_beyond_logo.png)
+                          |  
+:-------------------------:|:-------------------------:
+![callisto](img/callisto_logo.jpg) |  ![noa](img/noa_beyond_logo.png)
+
+
+
+
