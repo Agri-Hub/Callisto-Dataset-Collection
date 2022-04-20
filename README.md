@@ -284,7 +284,7 @@ This dataset comprises field images, vegetation segmentation masks and crop/weed
   This dataset provides the hand-labelled crop / non-crop points used for training, which were created by labelling high-resolution satellite imagery in QGIS and Google Earth Pro. Data is available for Ethiopia, Sudan, Togo and Kenya.
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Photo-interpretation | Shapefiles | Africa | Crop Discrimination |[(2021)](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Tseng_Learning_To_Predict_Crop_Type_From_Heterogeneous_Sparse_Labels_Using_CVPRW_2021_paper.html|[Github](https://github.com/nasaharvest/crop-maml)|
+    | Photo-interpretation | Shapefiles | Africa | Crop Discrimination |[(2021)](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Tseng_Learning_To_Predict_Crop_Type_From_Heterogeneous_Sparse_Labels_Using_CVPRW_2021_paper.html)|[Github](https://github.com/nasaharvest/crop-maml)|
 
 - [LEM+ dataset](https://data.mendeley.com/datasets/vz6d7tw87f/1) <a name="hand_labelled_crop_no-crop"></a> <br />
   The dataset, in ESRI shapefile format (spatial reference system: WGS 84, EPSG: 4326), provides monthly land use information about 1854 fields from October 2019 to September 2020 from Luís Eduardo Magalhães (LEM) and other municipalities in the west of Bahia state, Brazil. The majority of the 16 land uses classes are related to crops. [[Paper]]()
@@ -311,11 +311,29 @@ The data is available only for the registered domestic researchers. Therefore, p
  - [Open Labelled Data (Netherlands)](https://nationaalgeoregister.nl/) <a name="open_vhr_images_and_geospatial_netherlands"></a> <br />
   The National Georegister focuses primarily on the professional user. This can be a Geo- ICT specialist looking for datasets, services or other geo-information elements. But also a policy officer who wants to consult a map, a web developer or a student who develops a website or application and is looking for geo-information for it. <br />
     - [Land Parcel Identification Systems (LPIS)](http://nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search#/metadata/b812a145-b4fe-4331-8dc6-d914327a87ff) <a name="lpis_netherlands"></a>
-    - [Reference Parcels](https://www.nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search;jsessionid=38BDD1EC9752E053336C3A2B28851B8B#/metadata/4fa03182-df71-4c39-87da-e7d5c0b82d88) <a name="reference_parcels_netherlands"></a>
+    - [Reference Parcels](https://www.nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search;jsessionid=38BDD1EC9752E053336C3A2B28851B8B#/metadata/4fa03182-df71-4c39-87da-e7d5c0b82d88) <a name="reference_parcels_netherlands"></a> 
     
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Farmer's Declarations | GeoDatabase | The Netherlands | Crop Monitoring |-|-|
+
+ - [Open Labelled Data (Flanders, Belgium)](https://www.geopunt.be/catalogus/datasetfolder/47c5540f-bf7c-45fc-9a74-8e60547cde82) <a name="open_vhr_images_and_geospatial_belgium"></a> <br />
+   Overview of the parcels in agricultural use on the final date of submission of the single application that year. The inventory also includes pools, wooded areas and agricultural production facilities (yards with stables and buildings). <br />  
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Farmer's Declarations | Shapefile, Gml (2.1.2) | Flanders, Belgium | Crop Monitoring |-|-|
+
+ - [Open Labelled Data (Denmark)](https://landbrugsgeodata.fvm.dk/) <a name="open_vhr_images_and_geospatial_denmark"></a> <br />
+  This data collection contatins a plethora of map data that the Danish Agriculture Authority has made openly avaialble. Specifically, under the _Markblokke_ you can find the Land parcel Identification System (LPIS) data collection and under the _Marker_ section you can find the Geo-spatial Aid Application (GSAA) data collection which contains parcel geometries accompanied by their crop type, from 2018 to today. More information are avaialble about the [GSAA files](https://collections.eurodatacube.com/denmark-gsaa/readme.html) where uou can also find you can find a description of crop names [CropDescription](https://collections.eurodatacube.com/denmark-gsaa/GSAA_DK_Description_of_crop_names.xlsx). <br />
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Farmer's Declarations | Shapefile | Denmark | Crop Monitoring |-|-|
+
+ - [Land parcel Identification System (LPIS) - Luxembourg](https://data.public.lu/fr/datasets/referentiel-des-parcelles-flik/) <a name="open_vhr_images_and_geospatial_luxembourg"></a> <br />
+  This dataset contatins agricultural and wine-growing parcels used as a basis for declarations within the framework of the common agricultural policy. <br />
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Farmer's Declarations | GML | Luxembourg | Vineyard Mapping |-|-|
     
 - [DWD_RECENT](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/recent/) <a name="dwd_recent"></a>  <br />
  DWD Climate Data Center (CDC): Phenological observations of crops from sowing to harvest, in Germany. The temporal coverage is rolling, with a window of 500 days (ending always yesterday), and the crops of interest are: meadows, winter wheat, winter rye, winter barley, winter oilseed rape, summer wheat, spring barley, oat, sunflower, maize, beet, sugar beet, fodder beet. For more information click [here](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/recent/DESCRIPTION_obsgermany-phenology-annual_reporters-crops-recent_en.pdf).
