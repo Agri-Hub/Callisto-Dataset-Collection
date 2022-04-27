@@ -131,7 +131,7 @@ These labels are also accomompanied by Remote sensing data. More specifically, f
 
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    |   Sentinel 2  | Patch | Europe | Land Cover Classification | [(2018)](https://ieeexplore.ieee.org/document/8519248) |  [GitHub](https://github.com/phelber/EuroSAT) |
+    |   Sentinel 2  | Patch | Europe | Land Cover Classification | [(2018)](https://ieeexplore.ieee.org/document/8519248) [(2019)](https://ieeexplore.ieee.org/abstract/document/8736785/?casa_token=Q4mLYViYwfgAAAAA:h7ZpTvlI4S_nwFLkh4E-SPpm4Acv6Ez1vQE3bCqmxNjYhZzCcKRo5aFetH_KqT4GFH2xkw9RvA)|  [GitHub](https://github.com/phelber/EuroSAT) |
 
 - [Sen12MS](https://mediatum.ub.tum.de/1474000) <a name="sen12ms"></a> <br />
   The SEN12MS dataset contains 180,662 patch triplets of corresponding Sentinel-1 dual-pol SAR data, Sentinel-2 multi-spectral images, and MODIS-derived land cover maps. The patches are distributed across the land masses of the Earth and spread over all four meteorological seasons. This is reflected by the dataset structure. All patches are provided in the form of 16-bit GeoTiffs containing the following specific information:
