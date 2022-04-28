@@ -140,7 +140,7 @@ These labels are also accomompanied by Remote sensing data. More specifically, f
   - MODIS Land Cover: 4 channels corresponding to IGBP, LCCS Land Cover, LCCS Land Use, and LCCS Surface Hydrology layers. <br />
  
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   | Relevant Implementations |
-    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------:|
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------|
     | Sentinel 1/2  | Patch | Global | Land Cover Classification | [(2019)](https://arxiv.org/pdf/1906.07789.pdf) [(2021)](https://arxiv.org/abs/2104.00704) |  [GitHub](https://github.com/schmitt-muc/SEN12MS) | Image Classification: [EfficientNet](https://paperswithcode.com/paper/efficientnet-rethinking-model-scaling-for) [Transformer](https://github.com/tunz/transformer-pytorch/tree/e7266679f0b32fd99135ea617213f986ceede056)  [Vision Transformers](https://paperswithcode.com/paper/an-image-is-worth-16x16-words-transformers-1) <br /> Semantic Segmentation: [U-Net](https://github.com/milesial/Pytorch-UNet/tree/67bf11b4db4c5f2891bd7e8e7f58bcde8ee2d2db) [DeepLab](https://github.com/tensorflow/models/tree/master/research/deeplab) [Transformer](https://github.com/tunz/transformer-pytorch/tree/e7266679f0b32fd99135ea617213f986ceede056) 
 
 - [SAT-4](https://www.kaggle.com/crawford/deepsat-sat4) <a name="sat4"></a> <br />
