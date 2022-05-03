@@ -528,7 +528,7 @@ Explore how senseFly drone solutions are employed around the globe — from topo
 ## Acknowledgements
 This work has been supported by the CALLISTO project which has been funded by EU's Horizon 2020 research and innovation programme under grant agreement No. 101004152.
 
-Curated by the Beyond Center of EO Research and Satellite Remote Sensing, IAASARS, National Observatory of Athens
+Curated by the Beyond Center of EO Research and Satellite Remote Sensing, IAASARS, National Observatory of Athens.
 
 <p float="left">
   <img src="img/callisto_logo.jpg" width="200" />
