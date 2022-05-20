@@ -407,12 +407,11 @@ With support from NASA, the Holloway Group at SAGE has developed a set of user-f
 
 Moreover, this dataset contains daily gridded DOMINO NO2 data, zipped into monthly files. These data were generated from Level-2 satellite data (on swaths) and gridded to a 12 km x 12 km horizontal resolution over the continental United States using the Wisconsin Horizontal Interpolation Program for Satellites (WHIPS) for ease of comparison with photochemical grid model output. [[Paper]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023316)
 
-[CAMS reanalysis data](https://confluence.ecmwf.int/display/CKB/CAMS%3A+Reanalysis+data+documentation) 
-The CAMS reanalysis is the latest global reanalysis data set of atmospheric composition (AC) produced by the Copernicus Atmosphere Monitoring Service (CAMS), consisting of 3-dimensional time-consistent AC fields, including aerosols, chemical species and greenhouse gases (GHGs) through the separate CAMS global greenhouse gas reanalysis (EGG4). The CAMS global reanalysis (EAC4) currently covers the period 2003-June 2021 and CAMS global greenhouse gas reanalysis (EGG4) currently covers the period 2003-2020. 
-
+- [CAMS reanalysis data](https://confluence.ecmwf.int/display/CKB/CAMS%3A+Reanalysis+data+documentation) 
+The CAMS reanalysis is the latest global reanalysis data set of atmospheric composition (AC) produced by the Copernicus Atmosphere Monitoring Service (CAMS), consisting of 3-dimensional time-consistent AC fields, including aerosols, chemical species and greenhouse gases (GHGs) through the separate CAMS global greenhouse gas reanalysis (EGG4). The CAMS global reanalysis (EAC4) currently covers the period 2003-June 2021 and CAMS global greenhouse gas reanalysis (EGG4) currently covers the period 2003-2020. <br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Μοdel data with observations | GRIB or NetCDF files | Globaly | Air Quality |[2019](https://acp.copernicus.org/articles/19/3515/2019/) |-|
+    | Μοdel data with observations | GRIB or NetCDF files | Globaly | Air Quality |[(2019)](https://acp.copernicus.org/articles/19/3515/2019/) |-|
     
 ### Other  <a name="other"></a>
  
