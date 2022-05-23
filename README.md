@@ -165,7 +165,7 @@ The ZueriCrop dataset contains ground truth labels of 116,000 field instances. E
   
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    |  Sentinel 2  | Pixel | France | Semantic and Panoptic Crop Segmentation | [(2021)](https://openaccess.thecvf.com/content/ICCV2021/papers/Garnot_Panoptic_Segmentation_of_Satellite_Image_Time_Series_With_Convolutional_Temporal_ICCV_2021_paper.pdf) [2022](https://www.sciencedirect.com/science/article/abs/pii/S0924271622000855)| [GitHub](https://github.com/VSainteuf/utae-paps) |
+    |  Sentinel 2  | Pixel | France | Semantic and Panoptic Crop Segmentation | [(2021)](https://openaccess.thecvf.com/content/ICCV2021/papers/Garnot_Panoptic_Segmentation_of_Satellite_Image_Time_Series_With_Convolutional_Temporal_ICCV_2021_paper.pdf) [(2022)](https://www.sciencedirect.com/science/article/abs/pii/S0924271622000855)| [GitHub](https://github.com/VSainteuf/utae-paps) |
    
 - [CV4A Kenya](https://mlhub.earth/10.34911/rdnt.dw605x) <a name="cv4a_kenya"></a>  <br />
   This dataset was produced as part of the Crop Type Detection competition at the Computer Vision for Agriculture (CV4A) Workshop at the ICLR 2020 conference. The ground reference data were collected by the PlantVillage team, and Radiant Earth Foundation curated the training dataset after inspecting and selecting more than 4,000 fields from the original ground reference data. The dataset has been split into training and test sets (3,286 in the train and 1,402 in the test).
