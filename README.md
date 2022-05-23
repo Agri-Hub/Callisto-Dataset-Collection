@@ -445,9 +445,9 @@ AU-AIR has several features: <br />
     - Frames are also labelled with time, GPS, IMU, altitude, linear velocities of the UAV
 [[Paper]](https://arxiv.org/abs/2008.02834) [[GitHub]](https://github.com/bozcani/auairdataset)
      
-      - [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water
+- [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water
 and Roads from Aerial Imagery](https://www.kaggle.com/datasets/adrianboguszewski/landcoverai) <a name="landcoverai"></a><br />
-Semantic segmentation dataset for land cover classification based on aerial RGB images. Contains four manually annotated land cover classes: buildings, woodlands, water, roads. It covers 216 km² over Poland, with 25 cm / 50 cm resolution. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf)
+Semantic segmentation dataset for land cover classification based on aerial RGB images. Contains four manually annotated land cover classes: buildings, woodlands, water, roads. It covers 216 km² over Poland, with 25 cm / 50 cm resolution. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf) <br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Aerial Photos (RGB) | GeoTiffs | Poland | Land Cover Mapping |[(2021)](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf)|-
