@@ -412,7 +412,10 @@ This dataset provides significant information on spatial and temporal changes of
 #### In-situ & Ground-level datasets  <a name="air_insitu"></a>
 
 - [Air Quality e-Reporting (AQ e-Reporting)](https://www.eea.europa.eu/data-and-maps/data/aqereporting-9)<br />
-European air quality information reported by EEA member countries, including all EU Member States, as well as EEA cooperating and other reporting countries. The EEA’s air quality database consists of a multi-annual time series of air quality measurement data and calculated statistics for a number of air pollutants. It also contains meta-information on the monitoring networks involved, their stations and measurements, air quality modelling techniques, as well as air quality zones, assessment regimes, compliance attainments and air quality plans and programmes reported by the EU Member States and European Economic Area countries
+European air quality information reported by EEA member countries, including all EU Member States, as well as EEA cooperating and other reporting countries. The EEA’s air quality database consists of a multi-annual time series of air quality measurement data and calculated statistics for a number of air pollutants. It also contains meta-information on the monitoring networks involved, their stations and measurements, air quality modelling techniques, as well as air quality zones, assessment regimes, compliance attainments and air quality plans and programmes reported by the EU Member States and European Economic Area countries.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Air quality monitoring stations | csv | European Union Member States | Air Quality modelling | - | - |
 
 
 #### Geo-referenced labels  <a name="air_georef_labels"></a>
