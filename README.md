@@ -385,12 +385,16 @@ Pixel-level change ground truth is provided for 14 of the image pairs. The annot
 AquaSat contains more than 600,000 matchups, covering 1984–2019, of ground-based total suspended sediment, dissolved organic carbon, chlorophyll-a, and SDDSecchi disk depth measurements paired with spectral reflectance from Landsat 5, 7, and 8 collected within ±1 day of each other. To build AquaSat, the authors developed open source tools in R and Python and applied them to existing public data sets covering the contiguous United States, including the Water Quality Portal, LAGOS-NE, and the Landsat archive.
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Landsat 5,7,8 and in-situ (WQP and LAGOS-NE) | csv | Water bodies across USA (1984-2019) | Water Quality estimation | [(2019)](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019WR024883) | [("Code used for dataset generation")](https://github.com/GlobalHydrologyLab/AquaSat) |
+    | Landsat 5,7,8 and in-situ (WQP and LAGOS-NE) | csv | Water bodies across USA (1984-2019) | Water Quality estimation | [(2019)](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019WR024883) | [(Code used for dataset generation)](https://github.com/GlobalHydrologyLab/AquaSat) |
 
 
     
 - [A dataset of remote-sensed Forel-Ule Index for global inland waters during 2000–2018](https://figshare.com/articles/dataset/A_dataset_of_remote-sensed_Forel-Ule_Index_for_global_inland_waters_during_2000_2018/13014299) <br />
-This dataset provides significant information on spatial and temporal changes of water colour for global large lakes from 2000–2018 based on MODIS observations. It will be valuable to studies in search of the drivers of global and regional lake colour change, and the interaction mechanisms between water colour, hydrological factors, climate change, and anthropogenic activities. [[Paper]](https://pubmed.ncbi.nlm.nih.gov/33495477)
+This dataset provides significant information on spatial and temporal changes of water colour for global large lakes from 2000–2018 based on MODIS observations. It will be valuable to studies in search of the drivers of global and regional lake colour change, and the interaction mechanisms between water colour, hydrological factors, climate change, and anthropogenic activities.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | MODIS | csv | Global (Large lakes) | Water quality estimation & Water colour variability | [(2021)](https://www.nature.com/articles/s41597-021-00807-z) | [(IDL Code used to calculate FUI from MOD09A1 data)](https://figshare.com/articles/dataset/A_dataset_of_remote-sensed_Forel-Ule_Index_for_global_inland_waters_during_2000_2018/13014299?file=24953162) |
+
     
 #### Analysis Ready Remote Sensing Data  without labels  <a name="water_ard_no_labels"></a>
 
