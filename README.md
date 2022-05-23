@@ -435,14 +435,17 @@ With support from NASA, the Holloway Group at SAGE has developed a set of user-f
 The CAMS reanalysis is the latest global reanalysis data set of atmospheric composition (AC) produced by the Copernicus Atmosphere Monitoring Service (CAMS), consisting of 3-dimensional time-consistent AC fields, including aerosols, chemical species and greenhouse gases (GHGs) through the separate CAMS global greenhouse gas reanalysis (EGG4). The CAMS global reanalysis (EAC4) currently covers the period 2003-June 2021 and CAMS global greenhouse gas reanalysis (EGG4) currently covers the period 2003-2020. <br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Μοdel data with observations | GRIB or NetCDF files | Globaly | Air Quality |[(2019)](https://acp.copernicus.org/articles/19/3515/2019/) |-|
+    | Μοdel data with observations | GRIB or NetCDF files | Globally | Air Quality |[(2019)](https://acp.copernicus.org/articles/19/3515/2019/) |-|
     
 ### Other  <a name="other"></a>
  
 #### Analysis Ready Remote Sensing Data  with labels  <a name="other_ard_labels"></a>
 - [Sen1Floods11](https://github.com/cloudtostreet/Sen1Floods11) <a name="sen1floods11"></a> <br />
   A surface water dataset including raw Sentinel-1 imagery and classified permanent water and flood water. This dataset consists of 4,831 512x512 chips covering 120,406 km2 and spans all 14 biomes, 357 ecoregions, and 6 continents of the world across 11 flood events.  <br />
-  [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Bonafilia_Sen1Floods11_A_Georeferenced_Dataset_to_Train_and_Test_Deep_Learning_CVPRW_2020_paper.html) [[GitHub]](https://github.com/cloudtostreet/Sen1Floods11)
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Sentinel-1 | GeoTIFF | Worldwide | Flood water analysis |[(2020)](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Bonafilia_Sen1Floods11_A_Georeferenced_Dataset_to_Train_and_Test_Deep_Learning_CVPRW_2020_paper.html) | [(GitHub - same as for dataset access)](https://github.com/cloudtostreet/Sen1Floods11) |
+
   
 
 - [Labeled SAR imagery dataset of ten geophysical phenomena from Sentinel-1 wave mode (TenGeoP-SARwv)](https://www.seanoe.org/data/00456/56796/) <a name="labelled_sar_geophysical"></a> <br />
