@@ -421,11 +421,15 @@ European air quality information reported by EEA member countries, including all
 #### Geo-referenced labels  <a name="air_georef_labels"></a>
 
 - [NO2 Air Pollution Data](https://sage.nelson.wisc.edu/data-and-models/datasets/satellite-data-for-air-quality/) <br />
-With support from NASA, the Holloway Group at SAGE has developed a set of user-friendly dataset to support wider utilization of remote sensing data for air quality and health. This growing inventory of data includes:
-    - Shapefiles of NO2 air pollution from satellite for use in GIS platforms, including the EPA’s EJSCREEN platform for environmental justice
-    - 12 km x 12 km daily gridded data of NO2 air pollution from satellite for comparison with  photochemical grid model output or other data sources
+With support from NASA, the Holloway Group at SAGE has developed a set of user-friendly datasets to support wider utilization of remote sensing data for air quality and health. This growing inventory of data includes:
+  - Shapefiles of NO2 air pollution from satellite for use in GIS platforms, including the EPA’s EJSCREEN platform for environmental justice
+  - 12 km x 12 km daily gridded data of NO2 air pollution from satellite for comparison with  photochemical grid model output or other data sources
 
-Moreover, this dataset contains daily gridded DOMINO NO2 data, zipped into monthly files. These data were generated from Level-2 satellite data (on swaths) and gridded to a 12 km x 12 km horizontal resolution over the continental United States using the Wisconsin Horizontal Interpolation Program for Satellites (WHIPS) for ease of comparison with photochemical grid model output. [[Paper]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023316)
+  Moreover, this dataset contains daily gridded DOMINO NO2 data, zipped into monthly files. These data were generated from Level-2 satellite data (on swaths) and gridded to a 12 km x 12 km horizontal resolution over the continental United States using the Wisconsin Horizontal Interpolation Program for Satellites (WHIPS) for ease of comparison with photochemical grid model output.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Satellite | nc (NetCDF) - Can be opened through python, excel, etc | USA (some states) | Air Quality and Health | [(Paper)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023316) | - |
+
 
 - [CAMS reanalysis data](https://confluence.ecmwf.int/display/CKB/CAMS%3A+Reanalysis+data+documentation) <br />
 The CAMS reanalysis is the latest global reanalysis data set of atmospheric composition (AC) produced by the Copernicus Atmosphere Monitoring Service (CAMS), consisting of 3-dimensional time-consistent AC fields, including aerosols, chemical species and greenhouse gases (GHGs) through the separate CAMS global greenhouse gas reanalysis (EGG4). The CAMS global reanalysis (EAC4) currently covers the period 2003-June 2021 and CAMS global greenhouse gas reanalysis (EGG4) currently covers the period 2003-2020. <br />
