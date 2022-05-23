@@ -369,8 +369,10 @@ Pixel-level change ground truth is provided for 14 of the image pairs. The annot
 
 #### Analysis Ready Remote Sensing Data  without labels <a name="land_ard_no_labels"></a>
 - [EarthNet2021 dataset](https://www.earthnet.tech/docs/ds-download/) <a name="earthnet_2021"></a> 
-  - Training data for Earth surface prediction. The data consists of time series of Sentinel-2 products. More information can be found [here](https://www.earthnet.tech/docs/ds-specifications/) and [here](https://www.youtube.com/watch?v=sumLCeZ92Hk).
-  [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Requena-Mesa_EarthNet2021_A_Large-Scale_Dataset_and_Challenge_for_Earth_Surface_Forecasting_CVPRW_2021_paper.html) [[GitHub]](https://github.com/earthnet2021/earthnet-model-intercomparison-suite) 
+  - Training data for Earth surface prediction/forecasting. The data consists of time series of Sentinel-2 products. More information can be found [here (dataset specificiation)](https://www.earthnet.tech/docs/ds-specifications/) and [here (youtube video with introduction to the EarthNet2021 dataset and challenge)](https://www.youtube.com/watch?v=sumLCeZ92Hk).
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Relevant Implementations   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Sentinel-2, E-OBS weather data, EUDEM (digital elevation model) | Data multicubes (numpy arrays) | Patches in Europe | Earth Surface Forecasting (intersection of video prediction and data-driven Earth system modeling) | [(2021)](https://arxiv.org/abs/2104.10066) | [("Models used in the challenge")](https://github.com/earthnet2021/earthnet-model-intercomparison-suite), [("Delta Framework" Models)](https://github.com/rudolfwilliam/satellite_image_forecasting) |
 
 #### In-situ & Ground-level datasets <a name="land_ard_insitu"></a>
     
