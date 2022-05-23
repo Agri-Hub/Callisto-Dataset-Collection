@@ -372,7 +372,7 @@ Pixel-level change ground truth is provided for 14 of the image pairs. The annot
   - Training data for Earth surface prediction/forecasting. The data consists of time series of Sentinel-2 products. More information can be found [here (dataset specificiation)](https://www.earthnet.tech/docs/ds-specifications/) and [here (youtube video with introduction to the EarthNet2021 dataset and challenge)](https://www.youtube.com/watch?v=sumLCeZ92Hk).
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Relevant Implementations   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Sentinel-2, E-OBS weather data, EUDEM (digital elevation model) | Data multicubes (numpy arrays) | Patches in Europe | Earth Surface Forecasting (intersection of video prediction and data-driven Earth system modeling) | [(2021)](https://arxiv.org/abs/2104.10066) | [("Models used in the challenge")](https://github.com/earthnet2021/earthnet-model-intercomparison-suite), [("Delta Framework" Models)](https://github.com/rudolfwilliam/satellite_image_forecasting) |
+    | Sentinel-2, E-OBS weather data, EUDEM (digital elevation model) | Data multicubes (numpy arrays) | Patches in Europe | Earth Surface Forecasting (intersection of video prediction and data-driven Earth system modeling) | [(2021)](https://arxiv.org/abs/2104.10066) | [(Models used in the challenge)](https://github.com/earthnet2021/earthnet-model-intercomparison-suite), [("Delta Framework" Models)](https://github.com/rudolfwilliam/satellite_image_forecasting) |
 
 #### In-situ & Ground-level datasets <a name="land_ard_insitu"></a>
     
@@ -382,7 +382,12 @@ Pixel-level change ground truth is provided for 14 of the image pairs. The annot
 #### Analysis Ready Remote Sensing Data  with labels  <a name="water_ard_labels"></a>
 
 - [AquaSat](https://github.com/GlobalHydrologyLab/AquaSat) <br />
-AquaSat contains more than 600,000 matchups, covering 1984–2019, of ground-based total suspended sediment, dissolved organic carbon, chlorophyll a, and SDDSecchi disk depth measurements paired with spectral reflectance from Landsat 5, 7, and 8 collected within ±1 day of each other. To build AquaSat, the authors developed open source tools in R and Python and applied them to existing public data sets covering the contiguous United States, including the Water Quality Portal, LAGOS-NE, and the Landsat archive. [[Paper]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019WR024883) [[GitHub]](https://github.com/GlobalHydrologyLab/AquaSata) 
+AquaSat contains more than 600,000 matchups, covering 1984–2019, of ground-based total suspended sediment, dissolved organic carbon, chlorophyll-a, and SDDSecchi disk depth measurements paired with spectral reflectance from Landsat 5, 7, and 8 collected within ±1 day of each other. To build AquaSat, the authors developed open source tools in R and Python and applied them to existing public data sets covering the contiguous United States, including the Water Quality Portal, LAGOS-NE, and the Landsat archive.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Landsat 5,7,8 and in-situ (WQP and LAGOS-NE) | csv | Water bodies across USA (1984-2019) | Water Quality estimation | [(2019)](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019WR024883) | [("Code used for dataset generation")](https://github.com/GlobalHydrologyLab/AquaSat) |
+
+
     
 - [A dataset of remote-sensed Forel-Ule Index for global inland waters during 2000–2018](https://figshare.com/articles/dataset/A_dataset_of_remote-sensed_Forel-Ule_Index_for_global_inland_waters_during_2000_2018/13014299) <br />
 This dataset provides significant information on spatial and temporal changes of water colour for global large lakes from 2000–2018 based on MODIS observations. It will be valuable to studies in search of the drivers of global and regional lake colour change, and the interaction mechanisms between water colour, hydrological factors, climate change, and anthropogenic activities. [[Paper]](https://pubmed.ncbi.nlm.nih.gov/33495477)
