@@ -289,7 +289,8 @@ This dataset comprises field images, vegetation segmentation masks and crop/weed
     | Photo-interpretation | Shapefiles | Africa | Crop Discrimination |[(2021)](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Tseng_Learning_To_Predict_Crop_Type_From_Heterogeneous_Sparse_Labels_Using_CVPRW_2021_paper.html)|[Github](https://github.com/nasaharvest/crop-maml)|
 
 - [LEM+ dataset](https://data.mendeley.com/datasets/vz6d7tw87f/1) <a name="hand_labelled_crop_no-crop"></a> <br />
-  The dataset, in ESRI shapefile format (spatial reference system: WGS 84, EPSG: 4326), provides monthly land use information about 1854 fields from October 2019 to September 2020 from Luís Eduardo Magalhães (LEM) and other municipalities in the west of Bahia state, Brazil. The majority of the 16 land uses classes are related to crops. [[Paper]]()
+  The dataset, in ESRI shapefile format (spatial reference system: WGS 84, EPSG: 4326), provides monthly land use information about 1854 fields from October 2019 to September 2020 from Luís Eduardo Magalhães (LEM) and other municipalities in the west of Bahia state, Brazil. The majority of the 16 land uses classes are related to crops. 
+  
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Field visits | Shapefiles | Brazil | Crop Monitoring |[(2020)](https://www.sciencedirect.com/science/article/pii/S2352340920314359)|-|
