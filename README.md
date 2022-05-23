@@ -165,7 +165,7 @@ The ZueriCrop dataset contains ground truth labels of 116,000 field instances. E
   
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    |  Sentinel 2  | Pixel | France | Semantic and Panoptic Crop Segmentation | [(2021)](https://openaccess.thecvf.com/content/ICCV2021/papers/Garnot_Panoptic_Segmentation_of_Satellite_Image_Time_Series_With_Convolutional_Temporal_ICCV_2021_paper.pdf) [2022](https://www.sciencedirect.com/science/article/abs/pii/S0924271622000855)| [GitHub](https://github.com/VSainteuf/utae-paps) |
+    |  Sentinel 2  | Pixel | France | Semantic and Panoptic Crop Segmentation | [(2021)](https://openaccess.thecvf.com/content/ICCV2021/papers/Garnot_Panoptic_Segmentation_of_Satellite_Image_Time_Series_With_Convolutional_Temporal_ICCV_2021_paper.pdf) [(2022)](https://www.sciencedirect.com/science/article/abs/pii/S0924271622000855)| [GitHub](https://github.com/VSainteuf/utae-paps) |
    
 - [CV4A Kenya](https://mlhub.earth/10.34911/rdnt.dw605x) <a name="cv4a_kenya"></a>  <br />
   This dataset was produced as part of the Crop Type Detection competition at the Computer Vision for Agriculture (CV4A) Workshop at the ICLR 2020 conference. The ground reference data were collected by the PlantVillage team, and Radiant Earth Foundation curated the training dataset after inspecting and selecting more than 4,000 fields from the original ground reference data. The dataset has been split into training and test sets (3,286 in the train and 1,402 in the test).
@@ -289,7 +289,8 @@ This dataset comprises field images, vegetation segmentation masks and crop/weed
     | Photo-interpretation | Shapefiles | Africa | Crop Discrimination |[(2021)](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Tseng_Learning_To_Predict_Crop_Type_From_Heterogeneous_Sparse_Labels_Using_CVPRW_2021_paper.html)|[Github](https://github.com/nasaharvest/crop-maml)|
 
 - [LEM+ dataset](https://data.mendeley.com/datasets/vz6d7tw87f/1) <a name="hand_labelled_crop_no-crop"></a> <br />
-  The dataset, in ESRI shapefile format (spatial reference system: WGS 84, EPSG: 4326), provides monthly land use information about 1854 fields from October 2019 to September 2020 from Luís Eduardo Magalhães (LEM) and other municipalities in the west of Bahia state, Brazil. The majority of the 16 land uses classes are related to crops. [[Paper]]()
+  The dataset, in ESRI shapefile format (spatial reference system: WGS 84, EPSG: 4326), provides monthly land use information about 1854 fields from October 2019 to September 2020 from Luís Eduardo Magalhães (LEM) and other municipalities in the west of Bahia state, Brazil. The majority of the 16 land uses classes are related to crops. 
+  
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Field visits | Shapefiles | Brazil | Crop Monitoring |[(2020)](https://www.sciencedirect.com/science/article/pii/S2352340920314359)|-|
@@ -376,10 +377,10 @@ Pixel-level change ground truth is provided for 14 of the image pairs. The annot
 #### Analysis Ready Remote Sensing Data  with labels  <a name="water_ard_labels"></a>
 
 - [AquaSat](https://github.com/GlobalHydrologyLab/AquaSat) <br />
-    AquaSat contains more than 600,000 matchups, covering 1984–2019, of ground-based total suspended sediment, dissolved organic carbon, chlorophyll a, and SDDSecchi disk depth measurements paired with spectral reflectance from Landsat 5, 7, and 8 collected within ±1 day of each other. To build AquaSat, the authors developed open source tools in R and Python and applied them to existing public data sets covering the contiguous United States, including the Water Quality Portal, LAGOS-NE, and the Landsat archive. [[Paper]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019WR024883) [[GitHub]](https://github.com/GlobalHydrologyLab/AquaSata) 
+AquaSat contains more than 600,000 matchups, covering 1984–2019, of ground-based total suspended sediment, dissolved organic carbon, chlorophyll a, and SDDSecchi disk depth measurements paired with spectral reflectance from Landsat 5, 7, and 8 collected within ±1 day of each other. To build AquaSat, the authors developed open source tools in R and Python and applied them to existing public data sets covering the contiguous United States, including the Water Quality Portal, LAGOS-NE, and the Landsat archive. [[Paper]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019WR024883) [[GitHub]](https://github.com/GlobalHydrologyLab/AquaSata) 
     
 - [A dataset of remote-sensed Forel-Ule Index for global inland waters during 2000–2018](https://figshare.com/articles/dataset/A_dataset_of_remote-sensed_Forel-Ule_Index_for_global_inland_waters_during_2000_2018/13014299) <br />
-   This dataset provides significant information on spatial and temporal changes of water colour for global large lakes from 2000–2018 based on MODIS observations. It will be valuable to studies in search of the drivers of global and regional lake colour change, and the interaction mechanisms between water colour, hydrological factors, climate change, and anthropogenic activities. [[Paper]](https://pubmed.ncbi.nlm.nih.gov/33495477)
+This dataset provides significant information on spatial and temporal changes of water colour for global large lakes from 2000–2018 based on MODIS observations. It will be valuable to studies in search of the drivers of global and regional lake colour change, and the interaction mechanisms between water colour, hydrological factors, climate change, and anthropogenic activities. [[Paper]](https://pubmed.ncbi.nlm.nih.gov/33495477)
     
 #### Analysis Ready Remote Sensing Data  without labels  <a name="water_ard_no_labels"></a>
 
@@ -395,17 +396,26 @@ Pixel-level change ground truth is provided for 14 of the image pairs. The annot
 #### Analysis Ready Remote Sensing Data  without labels  <a name="air_ard_no_labels"></a>
 
 #### In-situ & Ground-level datasets  <a name="air_insitu"></a>
--[Air Quality e-Reporting (AQ e-Reporting)](https://www.eea.europa.eu/data-and-maps/data/aqereporting-9)<br />
+
+- [Air Quality e-Reporting (AQ e-Reporting)](https://www.eea.europa.eu/data-and-maps/data/aqereporting-9)<br />
 European air quality information reported by EEA member countries, including all EU Member States, as well as EEA cooperating and other reporting countries. The EEA’s air quality database consists of a multi-annual time series of air quality measurement data and calculated statistics for a number of air pollutants. It also contains meta-information on the monitoring networks involved, their stations and measurements, air quality modelling techniques, as well as air quality zones, assessment regimes, compliance attainments and air quality plans and programmes reported by the EU Member States and European Economic Area countries
 
+
 #### Geo-referenced labels  <a name="air_georef_labels"></a>
--[NO2 Air Pollution Data](https://sage.nelson.wisc.edu/data-and-models/datasets/satellite-data-for-air-quality/) <br />
+
+- [NO2 Air Pollution Data](https://sage.nelson.wisc.edu/data-and-models/datasets/satellite-data-for-air-quality/) <br />
 With support from NASA, the Holloway Group at SAGE has developed a set of user-friendly dataset to support wider utilization of remote sensing data for air quality and health. This growing inventory of data includes:
     - Shapefiles of NO2 air pollution from satellite for use in GIS platforms, including the EPA’s EJSCREEN platform for environmental justice
     - 12 km x 12 km daily gridded data of NO2 air pollution from satellite for comparison with  photochemical grid model output or other data sources
 
 Moreover, this dataset contains daily gridded DOMINO NO2 data, zipped into monthly files. These data were generated from Level-2 satellite data (on swaths) and gridded to a 12 km x 12 km horizontal resolution over the continental United States using the Wisconsin Horizontal Interpolation Program for Satellites (WHIPS) for ease of comparison with photochemical grid model output. [[Paper]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023316)
 
+- [CAMS reanalysis data](https://confluence.ecmwf.int/display/CKB/CAMS%3A+Reanalysis+data+documentation) <br />
+The CAMS reanalysis is the latest global reanalysis data set of atmospheric composition (AC) produced by the Copernicus Atmosphere Monitoring Service (CAMS), consisting of 3-dimensional time-consistent AC fields, including aerosols, chemical species and greenhouse gases (GHGs) through the separate CAMS global greenhouse gas reanalysis (EGG4). The CAMS global reanalysis (EAC4) currently covers the period 2003-June 2021 and CAMS global greenhouse gas reanalysis (EGG4) currently covers the period 2003-2020. <br />
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Μοdel data with observations | GRIB or NetCDF files | Globaly | Air Quality |[(2019)](https://acp.copernicus.org/articles/19/3515/2019/) |-|
+    
 ### Other  <a name="other"></a>
  
 #### Analysis Ready Remote Sensing Data  with labels  <a name="other_ard_labels"></a>
@@ -435,9 +445,9 @@ AU-AIR has several features: <br />
     - Frames are also labelled with time, GPS, IMU, altitude, linear velocities of the UAV
 [[Paper]](https://arxiv.org/abs/2008.02834) [[GitHub]](https://github.com/bozcani/auairdataset)
      
-      - [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water
+- [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water
 and Roads from Aerial Imagery](https://www.kaggle.com/datasets/adrianboguszewski/landcoverai) <a name="landcoverai"></a><br />
-Semantic segmentation dataset for land cover classification based on aerial RGB images. Contains four manually annotated land cover classes: buildings, woodlands, water, roads. It covers 216 km² over Poland, with 25 cm / 50 cm resolution. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf)
+Semantic segmentation dataset for land cover classification based on aerial RGB images. Contains four manually annotated land cover classes: buildings, woodlands, water, roads. It covers 216 km² over Poland, with 25 cm / 50 cm resolution. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf) <br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Aerial Photos (RGB) | GeoTiffs | Poland | Land Cover Mapping |[(2021)](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf)|-
