@@ -536,7 +536,10 @@ Explore how senseFly drone solutions are employed around the globe — from topo
    - Agriculture
    - Environmental Monitoring
    - Humanitarian 
- 
+
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Drones/UAVs | Images | Worldwide | Various (topographic mapping, crop scouting, climate change, etc.) | - | - |
 
 ### European projects <a name="eu_projects"></a>
 - [NextGEOSS Data Catalog (DaaS)](https://catalogue.nextgeoss.eu/) <a name="nextgeoss_daas"></a>
