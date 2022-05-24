@@ -521,7 +521,11 @@ Semantic segmentation dataset for land cover classification based on aerial RGB 
 That were acquired using:
     - Various styles (Proximal, UAV upon request)
     - Various sensors (RGB, thermal, multispectral & hyperspectral upon request) <br/>
-    [[GitHub]](https://github.com/Eden-Library-AI/eden_library_notebooks)
+
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Mobile phones, cameras (in-situ and UAV-mounted) | Images | Greece | Precision agriculture tasks | [(Paper)](https://www.sciencedirect.com/science/article/pii/S2772375521000289) | [(GitHub - Notebooks)](https://github.com/Eden-Library-AI/eden_library_notebooks) |
+
   
 - [senseFly](https://www.sensefly.com/education/datasets/) <a name="sensefly"></a> <br />
 Explore how senseFly drone solutions are employed around the globe — from topographic mapping and site surveys to stockpile monitoring, crop scouting, earthworks, climate change research and much more. The main domains that are included in this dataset are: <br />
