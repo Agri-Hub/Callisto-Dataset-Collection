@@ -472,7 +472,11 @@ AU-AIR has several features: <br />
     - 132,034 object instances
     - 8 object categories related to traffic surveillance
     - Frames are also labelled with time, GPS, IMU, altitude, linear velocities of the UAV
-[[Paper]](https://arxiv.org/abs/2008.02834) [[GitHub]](https://github.com/bozcani/auairdataset)
+
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Drones/UAVs | JPG (images) and json (annotations)| Aarhus, Denmark | Object detection | [(Paper)](https://arxiv.org/abs/2001.11737) | [(GitHub - Dataset)](https://bozcani.github.io/auairdataset), [(GitHub - Tools/API)](https://github.com/sunw71/auairdataset) |
+
      
 - [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water
 and Roads from Aerial Imagery](https://www.kaggle.com/datasets/adrianboguszewski/landcoverai) <a name="landcoverai"></a><br />
