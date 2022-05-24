@@ -478,8 +478,7 @@ AU-AIR has several features: <br />
     | Drones/UAVs | JPG (images) and json (annotations)| Aarhus, Denmark | Object detection | [(Paper)](https://arxiv.org/abs/2001.11737) | [(GitHub - Dataset)](https://bozcani.github.io/auairdataset), [(GitHub - Tools/API)](https://github.com/sunw71/auairdataset) |
 
      
-- [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water
-and Roads from Aerial Imagery](https://www.kaggle.com/datasets/adrianboguszewski/landcoverai) <a name="landcoverai"></a><br />
+- [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water and Roads from Aerial Imagery](https://www.kaggle.com/datasets/adrianboguszewski/landcoverai) <a name="landcoverai"></a><br />
 Semantic segmentation dataset for land cover classification based on aerial RGB images. Contains four manually annotated land cover classes: buildings, woodlands, water, roads. It covers 216 km² over Poland, with 25 cm / 50 cm resolution. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf) <br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
@@ -509,6 +508,9 @@ Semantic segmentation dataset for land cover classification based on aerial RGB 
   - Navigation in a Google Street View style for easy visual interpretation
   - Filter imagery by capture time
   - Filter imagery by the types of objects that appear in the images (not an extended list of agriculture-specific objects yet though - mainly focused on city infrastructure and traffic lights/signs for now)
+    |  Data Source  | Type  |  Area  |            Task           | Relevant Papers | Relevant Implementations |
+    |:------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Mobile phones, action cameras etc. on the street-level | JPG and json annotations (through web or API) | Worldwide (crowdsourced) | Computer Vision | [(2016)](http://proceedings.mlr.press/v48/bulo16.html), [(2016)](https://ieeexplore.ieee.org/document/7780801), [(2017)](https://arxiv.org/abs/1704.02966), and many more - find full list [here](https://research.mapillary.com/) | [(GitHub - Space2Ground)](https://github.com/Agri-Hub/Space2Ground), [(GitHub - Agricultural annotations)](https://github.com/Agri-Hub/Mapillary_Annotation) |
 
 - [Eden Library](https://edenlibrary.ai/datasets) <a name="eden_library"></a><br />
   Eden Library is a collection of high value plant datasets embedding agricultural domain knowledge produced in an academic environment. Eden Library includes a wide range of agrifood datasets such as:
