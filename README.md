@@ -362,12 +362,17 @@ bean, green pea, tomato, white cabbage, alfalfa, red clover, beet, sugar beet, f
 - [Onera Dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection#files)<br />
 The Onera Satellite Change Detection dataset addresses the issue of detecting changes between satellite images from different dates.
 It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellites between 2015 and 2018. Locations are picked all over the world, in Brazil, USA, Europe, Middle-East and Asia. For each location, registered pairs of 13-band multispectral satellite images obtained by the Sentinel-2 satellites are provided. Images vary in spatial resolution between 10m, 20m and 60m.
-Pixel-level change ground truth is provided for 14 of the image pairs. The annotated changes focus on urban changes, such as new buildings or new roads. These data can be used for training and setting parameters of change detection algorithms. [[Paper]](https://rcdaudt.github.io/files/2018igarss-change-detection.pdf)[GitHub](https://github.com/rcdaudt/patch_based_change_detection) [GitHub2](https://github.com/rcdaudt/fully_convolutional_change_detection)
+Pixel-level change ground truth is provided for 14 of the image pairs. The annotated changes focus on urban changes, such as new buildings or new roads. These data can be used for training and setting parameters of change detection algorithms.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Relevant Implementations   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Sentinel-2 | RGB Images with tif and png labels | Worldwide (Asia, Brazil, Europe, Middle East, USA) | Change Detection | [(2018)](https://arxiv.org/abs/1810.08468) | [(Fully Convolutional Change Detection)](https://github.com/rcdaudt/fully_convolutional_change_detection), [(Patch-based Change Detection)](https://github.com/rcdaudt/patch_based_change_detection) |
 
 #### Analysis Ready Remote Sensing Data  without labels <a name="land_ard_no_labels"></a>
 - [EarthNet2021 dataset](https://www.earthnet.tech/docs/ds-download/) <a name="earthnet_2021"></a> 
-  - Training data for Earth surface prediction. The data consists of time series of Sentinel-2 products. More information can be found [here](https://www.earthnet.tech/docs/ds-specifications/) and [here](https://www.youtube.com/watch?v=sumLCeZ92Hk).
-  [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Requena-Mesa_EarthNet2021_A_Large-Scale_Dataset_and_Challenge_for_Earth_Surface_Forecasting_CVPRW_2021_paper.html) [[GitHub]](https://github.com/earthnet2021/earthnet-model-intercomparison-suite) 
+  - Training data for Earth surface prediction/forecasting. The data consists of time series of Sentinel-2 products. More information can be found [here (dataset specificiation)](https://www.earthnet.tech/docs/ds-specifications/) and [here (youtube video with introduction to the EarthNet2021 dataset and challenge)](https://www.youtube.com/watch?v=sumLCeZ92Hk).
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Relevant Implementations   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Sentinel-2, E-OBS weather data, EUDEM (digital elevation model) | Data multicubes (numpy arrays) | Patches in Europe | Earth Surface Forecasting (intersection of video prediction and data-driven Earth system modeling) | [(2021)](https://arxiv.org/abs/2104.10066) | [(Models used in the challenge)](https://github.com/earthnet2021/earthnet-model-intercomparison-suite), [("Delta Framework" Models)](https://github.com/rudolfwilliam/satellite_image_forecasting) |
 
 #### In-situ & Ground-level datasets <a name="land_ard_insitu"></a>
     
@@ -377,10 +382,19 @@ Pixel-level change ground truth is provided for 14 of the image pairs. The annot
 #### Analysis Ready Remote Sensing Data  with labels  <a name="water_ard_labels"></a>
 
 - [AquaSat](https://github.com/GlobalHydrologyLab/AquaSat) <br />
-AquaSat contains more than 600,000 matchups, covering 1984–2019, of ground-based total suspended sediment, dissolved organic carbon, chlorophyll a, and SDDSecchi disk depth measurements paired with spectral reflectance from Landsat 5, 7, and 8 collected within ±1 day of each other. To build AquaSat, the authors developed open source tools in R and Python and applied them to existing public data sets covering the contiguous United States, including the Water Quality Portal, LAGOS-NE, and the Landsat archive. [[Paper]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019WR024883) [[GitHub]](https://github.com/GlobalHydrologyLab/AquaSata) 
+AquaSat contains more than 600,000 matchups, covering 1984–2019, of ground-based total suspended sediment, dissolved organic carbon, chlorophyll-a, and SDDSecchi disk depth measurements paired with spectral reflectance from Landsat 5, 7, and 8 collected within ±1 day of each other. To build AquaSat, the authors developed open source tools in R and Python and applied them to existing public data sets covering the contiguous United States, including the Water Quality Portal, LAGOS-NE, and the Landsat archive.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Landsat 5,7,8 and in-situ (WQP and LAGOS-NE) | csv | Water bodies across USA (1984-2019) | Water Quality estimation | [(2019)](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019WR024883) | [(Code used for dataset generation)](https://github.com/GlobalHydrologyLab/AquaSat) |
+
+
     
 - [A dataset of remote-sensed Forel-Ule Index for global inland waters during 2000–2018](https://figshare.com/articles/dataset/A_dataset_of_remote-sensed_Forel-Ule_Index_for_global_inland_waters_during_2000_2018/13014299) <br />
-This dataset provides significant information on spatial and temporal changes of water colour for global large lakes from 2000–2018 based on MODIS observations. It will be valuable to studies in search of the drivers of global and regional lake colour change, and the interaction mechanisms between water colour, hydrological factors, climate change, and anthropogenic activities. [[Paper]](https://pubmed.ncbi.nlm.nih.gov/33495477)
+This dataset provides significant information on spatial and temporal changes of water colour for global large lakes from 2000–2018 based on MODIS observations. It will be valuable to studies in search of the drivers of global and regional lake colour change, and the interaction mechanisms between water colour, hydrological factors, climate change, and anthropogenic activities.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | MODIS | csv | Global (Large lakes) | Water quality estimation & Water colour variability | [(2021)](https://www.nature.com/articles/s41597-021-00807-z) | [(IDL Code used to calculate FUI from MOD09A1 data)](https://figshare.com/articles/dataset/A_dataset_of_remote-sensed_Forel-Ule_Index_for_global_inland_waters_during_2000_2018/13014299?file=24953162) |
+
     
 #### Analysis Ready Remote Sensing Data  without labels  <a name="water_ard_no_labels"></a>
 
@@ -398,39 +412,54 @@ This dataset provides significant information on spatial and temporal changes of
 #### In-situ & Ground-level datasets  <a name="air_insitu"></a>
 
 - [Air Quality e-Reporting (AQ e-Reporting)](https://www.eea.europa.eu/data-and-maps/data/aqereporting-9)<br />
-European air quality information reported by EEA member countries, including all EU Member States, as well as EEA cooperating and other reporting countries. The EEA’s air quality database consists of a multi-annual time series of air quality measurement data and calculated statistics for a number of air pollutants. It also contains meta-information on the monitoring networks involved, their stations and measurements, air quality modelling techniques, as well as air quality zones, assessment regimes, compliance attainments and air quality plans and programmes reported by the EU Member States and European Economic Area countries
+European air quality information reported by EEA member countries, including all EU Member States, as well as EEA cooperating and other reporting countries. The EEA’s air quality database consists of a multi-annual time series of air quality measurement data and calculated statistics for a number of air pollutants. It also contains meta-information on the monitoring networks involved, their stations and measurements, air quality modelling techniques, as well as air quality zones, assessment regimes, compliance attainments and air quality plans and programmes reported by the EU Member States and European Economic Area countries.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Air quality monitoring stations | csv | European Union Member States | Air Quality modelling | - | - |
 
 
 #### Geo-referenced labels  <a name="air_georef_labels"></a>
 
 - [NO2 Air Pollution Data](https://sage.nelson.wisc.edu/data-and-models/datasets/satellite-data-for-air-quality/) <br />
-With support from NASA, the Holloway Group at SAGE has developed a set of user-friendly dataset to support wider utilization of remote sensing data for air quality and health. This growing inventory of data includes:
-    - Shapefiles of NO2 air pollution from satellite for use in GIS platforms, including the EPA’s EJSCREEN platform for environmental justice
-    - 12 km x 12 km daily gridded data of NO2 air pollution from satellite for comparison with  photochemical grid model output or other data sources
+With support from NASA, the Holloway Group at SAGE has developed a set of user-friendly datasets to support wider utilization of remote sensing data for air quality and health. This growing inventory of data includes:
+  - Shapefiles of NO2 air pollution from satellite for use in GIS platforms, including the EPA’s EJSCREEN platform for environmental justice
+  - 12 km x 12 km daily gridded data of NO2 air pollution from satellite for comparison with  photochemical grid model output or other data sources
 
-Moreover, this dataset contains daily gridded DOMINO NO2 data, zipped into monthly files. These data were generated from Level-2 satellite data (on swaths) and gridded to a 12 km x 12 km horizontal resolution over the continental United States using the Wisconsin Horizontal Interpolation Program for Satellites (WHIPS) for ease of comparison with photochemical grid model output. [[Paper]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023316)
+  Moreover, this dataset contains daily gridded DOMINO NO2 data, zipped into monthly files. These data were generated from Level-2 satellite data (on swaths) and gridded to a 12 km x 12 km horizontal resolution over the continental United States using the Wisconsin Horizontal Interpolation Program for Satellites (WHIPS) for ease of comparison with photochemical grid model output.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Satellite | nc (NetCDF) - Can be opened through python, excel, etc | USA (some states) | Air Quality and Health | [(Paper)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023316) | - |
+
 
 - [CAMS reanalysis data](https://confluence.ecmwf.int/display/CKB/CAMS%3A+Reanalysis+data+documentation) <br />
 The CAMS reanalysis is the latest global reanalysis data set of atmospheric composition (AC) produced by the Copernicus Atmosphere Monitoring Service (CAMS), consisting of 3-dimensional time-consistent AC fields, including aerosols, chemical species and greenhouse gases (GHGs) through the separate CAMS global greenhouse gas reanalysis (EGG4). The CAMS global reanalysis (EAC4) currently covers the period 2003-June 2021 and CAMS global greenhouse gas reanalysis (EGG4) currently covers the period 2003-2020. <br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Μοdel data with observations | GRIB or NetCDF files | Globaly | Air Quality |[(2019)](https://acp.copernicus.org/articles/19/3515/2019/) |-|
+    | Μοdel data with observations | GRIB or NetCDF files | Globally | Air Quality |[(2019)](https://acp.copernicus.org/articles/19/3515/2019/) |-|
     
 ### Other  <a name="other"></a>
  
 #### Analysis Ready Remote Sensing Data  with labels  <a name="other_ard_labels"></a>
 - [Sen1Floods11](https://github.com/cloudtostreet/Sen1Floods11) <a name="sen1floods11"></a> <br />
   A surface water dataset including raw Sentinel-1 imagery and classified permanent water and flood water. This dataset consists of 4,831 512x512 chips covering 120,406 km2 and spans all 14 biomes, 357 ecoregions, and 6 continents of the world across 11 flood events.  <br />
-  [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Bonafilia_Sen1Floods11_A_Georeferenced_Dataset_to_Train_and_Test_Deep_Learning_CVPRW_2020_paper.html) [[GitHub]](https://github.com/cloudtostreet/Sen1Floods11)
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Sentinel-1 | GeoTIFF | Worldwide | Flood water analysis |[(2020)](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Bonafilia_Sen1Floods11_A_Georeferenced_Dataset_to_Train_and_Test_Deep_Learning_CVPRW_2020_paper.html) | [(GitHub - same as for dataset access)](https://github.com/cloudtostreet/Sen1Floods11) |
+
   
 
 - [Labeled SAR imagery dataset of ten geophysical phenomena from Sentinel-1 wave mode (TenGeoP-SARwv)](https://www.seanoe.org/data/00456/56796/) <a name="labelled_sar_geophysical"></a> <br />
-  The TenGeoP-SARwv dataset is established based on the acquisitions of Sentinel-1A wave mode (WV) in VV polarization. This dataset consists of more than 37,000 SAR vignettes divided into ten defined geophysical categories, including both oceanic and meteorologic features. These images cover the entire open ocean and are manually selected from Sentinel-1A WV acquisitions in 2016. For each image, only one prevalent geophysical phenomena with its prescribed signature and texture is selected for labeling. The SAR images are processed into a quick-look image provided in the formats of PNG and GeoTIFF as well as the associated labels. They are convenient for both visual inspection and machine-learning-based methods exploitation. [[Paper]](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/gdj3.73)
+  The TenGeoP-SARwv dataset is established based on the acquisitions of Sentinel-1A wave mode (WV) in VV polarization. This dataset consists of more than 37,000 SAR vignettes divided into ten defined geophysical categories, including both oceanic and meteorologic features. These images cover the entire open ocean and are manually selected from Sentinel-1A WV acquisitions in 2016. For each image, only one prevalent geophysical phenomena with its prescribed signature and texture is selected for labeling. The SAR images are processed into a quick-look image provided in the formats of PNG and GeoTIFF as well as the associated labels. They are convenient for both visual inspection and machine-learning-based methods exploitation.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Sentinel-1 | PNG and GeoTIFF | Globally (open ocean) | Modeling of Oceanographic and Atmospheric phenomena | [(Paper)](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/gdj3.73) | - |
 
 
 - [VisDrone dataset](https://github.com/VisDrone/VisDrone-Dataset) <a name="visdrone"></a> <br />
   From the description of the dataset repository: Drones, or general UAVs, equipped with cameras have been fast deployed to a wide range of applications, including agricultural, aerial photography, fast delivery, and surveillance. Consequently, automatic understanding of visual data collected from these platforms become highly demanding, which brings computer vision to drones more and more closely. We are excited to present a large-scale benchmark with carefully annotated ground-truth for various important computer vision tasks, named VisDrone, to make vision meet drones. The VisDrone2019 dataset is collected by the AISKYEYE team at Lab of Machine Learning and Data Mining , Tianjin University, China. The benchmark dataset consists of 288 video clips formed by 261,908 frames and 10,209 static images, captured by various drone-mounted cameras, covering a wide range of aspects including location (taken from 14 different cities separated by thousands of kilometers in China), environment (urban and country), objects (pedestrian, vehicles, bicycles, etc.), and density (sparse and crowded scenes). Note that, the dataset was collected using various drone platforms (i.e., drones with different models), in different scenarios, and under various weather and lighting conditions. These frames are manually annotated with more than 2.6 million bounding boxes of targets of frequent interests, such as pedestrians, cars, bicycles, and tricycles. Some important attributes including scene visibility, object class and occlusion, are also provided for better data utilization.
-  [[Paper]](http://128.84.4.34/abs/2001.06303) [[GitHub]](https://github.com/VisDrone/VisDrone-Dataset)
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   | Relevant Implementations |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------:|
+    | Drones/UAVs | JPG images and txt annotations | 14 cities in China | Object detection and tracking in images and videos, Crowd counting | [(Paper)](http://128.84.4.34/abs/2001.06303) | [(GitHub - Dataset access)](https://github.com/VisDrone/VisDrone-Dataset), [(GitHub - Documentation)](https://github.com/VisDrone/VisDrone2018-DET-toolkit) | [(GitHub)](https://github.com/zhpmatrix/VisDrone2018) |
 
 
 - [AU-AIR Dataset](https://bozcani.github.io/auairdataset) <a name="auair"></a><br />
@@ -443,10 +472,13 @@ AU-AIR has several features: <br />
     - 132,034 object instances
     - 8 object categories related to traffic surveillance
     - Frames are also labelled with time, GPS, IMU, altitude, linear velocities of the UAV
-[[Paper]](https://arxiv.org/abs/2008.02834) [[GitHub]](https://github.com/bozcani/auairdataset)
+
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Drones/UAVs | JPG (images) and json (annotations)| Aarhus, Denmark | Object detection | [(Paper)](https://arxiv.org/abs/2001.11737) | [(GitHub - Dataset)](https://bozcani.github.io/auairdataset), [(GitHub - Tools/API)](https://github.com/sunw71/auairdataset) |
+
      
-- [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water
-and Roads from Aerial Imagery](https://www.kaggle.com/datasets/adrianboguszewski/landcoverai) <a name="landcoverai"></a><br />
+- [LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands, Water and Roads from Aerial Imagery](https://www.kaggle.com/datasets/adrianboguszewski/landcoverai) <a name="landcoverai"></a><br />
 Semantic segmentation dataset for land cover classification based on aerial RGB images. Contains four manually annotated land cover classes: buildings, woodlands, water, roads. It covers 216 km² over Poland, with 25 cm / 50 cm resolution. [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Boguszewski_LandCover.ai_Dataset_for_Automatic_Mapping_of_Buildings_Woodlands_Water_and_CVPRW_2021_paper.pdf) <br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
@@ -476,6 +508,9 @@ Semantic segmentation dataset for land cover classification based on aerial RGB 
   - Navigation in a Google Street View style for easy visual interpretation
   - Filter imagery by capture time
   - Filter imagery by the types of objects that appear in the images (not an extended list of agriculture-specific objects yet though - mainly focused on city infrastructure and traffic lights/signs for now)
+    |  Data Source  | Type  |  Area  |            Task           | Relevant Papers | Relevant Implementations |
+    |:------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Mobile phones, action cameras etc. on the street-level | JPG and json annotations (through web or API) | Worldwide (crowdsourced) | Computer Vision | [(2016)](http://proceedings.mlr.press/v48/bulo16.html), [(2016)](https://ieeexplore.ieee.org/document/7780801), [(2017)](https://arxiv.org/abs/1704.02966), and many more - find full list [here](https://research.mapillary.com/) | [(GitHub - Space2Ground)](https://github.com/Agri-Hub/Space2Ground), [(GitHub - Agricultural annotations)](https://github.com/Agri-Hub/Mapillary_Annotation) |
 
 - [Eden Library](https://edenlibrary.ai/datasets) <a name="eden_library"></a><br />
   Eden Library is a collection of high value plant datasets embedding agricultural domain knowledge produced in an academic environment. Eden Library includes a wide range of agrifood datasets such as:
@@ -486,7 +521,11 @@ Semantic segmentation dataset for land cover classification based on aerial RGB 
 That were acquired using:
     - Various styles (Proximal, UAV upon request)
     - Various sensors (RGB, thermal, multispectral & hyperspectral upon request) <br/>
-    [[GitHub]](https://github.com/Eden-Library-AI/eden_library_notebooks)
+
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Mobile phones, cameras (in-situ and UAV-mounted) | Images | Greece | Precision agriculture tasks | [(Paper)](https://www.sciencedirect.com/science/article/pii/S2772375521000289) | [(GitHub - Notebooks)](https://github.com/Eden-Library-AI/eden_library_notebooks) |
+
   
 - [senseFly](https://www.sensefly.com/education/datasets/) <a name="sensefly"></a> <br />
 Explore how senseFly drone solutions are employed around the globe — from topographic mapping and site surveys to stockpile monitoring, crop scouting, earthworks, climate change research and much more. The main domains that are included in this dataset are: <br />
@@ -497,7 +536,10 @@ Explore how senseFly drone solutions are employed around the globe — from topo
    - Agriculture
    - Environmental Monitoring
    - Humanitarian 
- 
+
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Drones/UAVs | Images | Worldwide | Various (topographic mapping, crop scouting, climate change, etc.) | - | - |
 
 ### European projects <a name="eu_projects"></a>
 - [NextGEOSS Data Catalog (DaaS)](https://catalogue.nextgeoss.eu/) <a name="nextgeoss_daas"></a>
