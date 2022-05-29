@@ -82,7 +82,18 @@ Crop type labels from the freely available Land Parcel Identification System (LP
 <img src="img/mapillary_annotated_01.jpg" alt="Mapillary Annotated - Dataset sample" height="250px"/> <br/>
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   | Relevant implementations |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------:|
-    | Street level images  | Image | Netherlands | Crop Classification | [(2022)](https://zenodo.org/record/5845512#.YfEqq_uxVH4) | [GitHub](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary) | [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland), [Scene Segmentation](https://github.com/mapillary/seamseg) |
+    | Street level images  | Parcel | Netherlands | Crop Classification | [(2022)](https://zenodo.org/record/5845512#.YfEqq_uxVH4) | [GitHub](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary) | [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland), [Scene Segmentation](https://github.com/mapillary/seamseg) |
+
+
+- [Space2Ground dataset for Agriculture Monitoring (published in IVMSP-2022)](https://github.com/Agri-Hub/Space2Ground)  <a name="space2ground"></a><br />
+Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with grassland/non-grassland labels for agriculture monitoring. We combine Sentinel-1 SAR data, Sentinel-2 multispectral data and street-level images for the purpose of grassland detection. <br />
+<img width="215" height="260" src="img/Space2Ground_components.jpg"/>
+![Space2Ground Street-level image patch - example 1](img/space2ground_sample1.jpg)
+![Space2Ground Street-level image patch - example 2](img/space2ground_sample2.jpg)
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Sentinel-1, Sentinel-2 and crowdsourced street-level images | Parcel | Netherlands | Crop Classification (Grassland Detection mainly) | [(2022)](https://arxiv.org/abs/2205.07721) | [GitHub](https://github.com/Agri-Hub/Space2Ground) |
+
 
 - [Paddy Rice Maps South Korea (2017~2021)](https://zenodo.org/record/5845896)  <a name="paddy_rice_south_korea_2017_2021"></a><br />
  This dataset includes paddy rice maps in South Korea from 2017 to 2021 with 10m resolution. The paddy rice maps are a product of deep learning model predictions and DO NOT represent ground truth information. The predictions were made by analyzing time series Sentinel-1 images based on the deep learning architecture that integrates U-Net and RNNs layers desined by eGIS/RS lab, Korea University. The deep learning model has been trained with 7,762 patches and validated in 5,180 patches for each patch consists of 256 x 256 pixels, and can be found in h5 format [here](https://zenodo.org/record/6345555#.YirIKXNByUl). The labels were acquired from the farm map produced by the Korean Ministry of Agriculture, Food and Rural Affairs(MAFRA). Moreover, the authors have made public a [pre-trained model](https://916e49e3-4865-4754-af5f-be19c7f09272.filesusr.com/archives/0832c0_1bf3cd5028344b6189c18d9af0329dad.zip?dn=recurrent_unet.zip). The validation accuracy and Cohen's kappa value are 96.50%, 0.7857 each which were calculated from the 40% of the farm map. For more information please contact to the KU-eGIS/RS lab. <br />
