@@ -87,7 +87,7 @@ Crop type labels from the freely available Land Parcel Identification System (LP
 
 - [Space2Ground dataset for Agriculture Monitoring (published in IVMSP-2022)](https://github.com/Agri-Hub/Space2Ground)  <a name="space2ground"></a><br />
 Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with grassland/non-grassland labels for agriculture monitoring. We combine Sentinel-1 SAR data, Sentinel-2 multispectral data and street-level images for the purpose of grassland detection. <br />
-<img width="215" height="260" src="img/Space2Ground_components.jpg"/>
+![Space2Ground Street-level image patch - example 1](img/Space2Ground_components.jpg)
 ![Space2Ground Street-level image patch - example 1](img/space2ground_sample1.jpg)
 ![Space2Ground Street-level image patch - example 2](img/space2ground_sample2.jpg)
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
