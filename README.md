@@ -386,6 +386,12 @@ Pixel-level change ground truth is provided for 14 of the image pairs. The annot
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel-2 | RGB Images with tif and png labels | Worldwide (Asia, Brazil, Europe, Middle East, USA) | Change Detection | [(2018)](https://arxiv.org/abs/1810.08468) | [(Fully Convolutional Change Detection)](https://github.com/rcdaudt/fully_convolutional_change_detection), [(Patch-based Change Detection)](https://github.com/rcdaudt/patch_based_change_detection) |
 
+- [xBD Dataset](https://xview2.org/dataset)<br />
+xDB is a large-scale dataset for the advancement of change detection and building damage assessment for humanitarian assistance and disaster recovery research. It contains more than 850,000 satellite images (Maxar satellites) of buildings before and after a variety of natural disasters, along with corresponding annotations of damage level and relevant metadata. Furthermore, xBD contains bounding boxes and labels for environmental factors such as fire, water, and smoke.
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Relevant Implementations   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Maxar satellites | RGB Images (png) and json annotations and metadata | Various areas worldwide (a total of around 45500 km^2) | Change Detection | [(2019)](https://arxiv.org/abs/1911.09296) | [(xView Baseline)](https://github.com/DIUx-xView/xView2_baseline) |
+
 #### Analysis Ready Remote Sensing Data  without labels <a name="land_ard_no_labels"></a>
 - [EarthNet2021 dataset](https://www.earthnet.tech/docs/ds-download/) <a name="earthnet_2021"></a> 
   - Training data for Earth surface prediction/forecasting. The data consists of time series of Sentinel-2 products. More information can be found [here (dataset specificiation)](https://www.earthnet.tech/docs/ds-specifications/) and [here (youtube video with introduction to the EarthNet2021 dataset and challenge)](https://www.youtube.com/watch?v=sumLCeZ92Hk).
