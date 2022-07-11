@@ -476,6 +476,14 @@ The CAMS reanalysis is the latest global reanalysis data set of atmospheric comp
     
 ### Other  <a name="other"></a>
  
+ #### Analysis Ready Remote Sensing Data with labels  <a name="other_ard_labels"></a>
+ 
+- [Hephaestus](https://github.com/Orion-AI-Lab/Hephaestus) <a name="hephaestus"></a> <br />
+  Hephaestus is the first manually annotated dataset that consists of 19,919 individual Sentinel-1 interferograms acquired over 44 different volcanoes globally, which are split into 216,106 InSAR patches. The annotated dataset is designed to address different computer vision problems, including volcano state classification, semantic segmentation of ground deformation, detection and classification of atmospheric signals in InSAR imagery, interferogram captioning, text to InSAR generation, and InSAR image quality assessment.  <br />
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Sentinel-1 | Image parches | Worldwide | Computer Vision (e.g. Volcanic deformation classification) |[(2022)](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Bountos_Hephaestus_A_Large_Scale_Multitask_Dataset_Towards_InSAR_Understanding_CVPRW_2022_paper.pdf) | [(GitHub - same as for dataset access)](https://github.com/Orion-AI-Lab/Hephaestus) |
+
 #### Analysis Ready Remote Sensing Data  with labels  <a name="other_ard_labels"></a>
 - [Sen1Floods11](https://github.com/cloudtostreet/Sen1Floods11) <a name="sen1floods11"></a> <br />
   A surface water dataset including raw Sentinel-1 imagery and classified permanent water and flood water. This dataset consists of 4,831 512x512 chips covering 120,406 km2 and spans all 14 biomes, 357 ecoregions, and 6 continents of the world across 11 flood events.  <br />
