@@ -398,6 +398,12 @@ xDB is a large-scale dataset for the advancement of change detection and buildin
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Maxar satellites | RGB Images (png) and json annotations and metadata | Various areas worldwide (a total of around 45500 km^2) | Change Detection | [(2019)](https://arxiv.org/abs/1911.09296) | [(xView Baseline)](https://github.com/DIUx-xView/xView2_baseline) |
 
+- [SZTAKI AirChange Benchmark set](http://mplab.sztaki.hu/remotesensing/airchange_benchmark.html)<br />
+A Ground truth collection for change detection in optical aerial images taken with several years time differences. It contains 13 aerial image pairs of size 952x640 and resolution 1.5m/pixel and binary change masks (drawn by hand), which were used for evaluation of the relevant papers (check table below). Each record constains a pair of preliminary registered input images and a mask of the 'relevant' changes. The input images are taken with 5, 7 resp. 23 years time differences. During the generation of the change mask, the creators have considered the following differences as relevant changes: (a) new built-up regions (b) building operations (c) planting of large group of trees (d) fresh plough-land (e) groundwork before building over. Note that the ground truth does NOT contain change classification, only binary change-no change decision for each pixel.
+    |  Data Source  | Type  |  Area  |            Task           | Relevant Papers | Relevant Presentation |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Aerial Photos | Both images and ground truth in bmp format | Szada and Tiszadob (Hungary) | Change Detection | [(2009/1)](https://eprints.sztaki.hu/5314/7/benedekTGRS2009.pdf), [(2009/2)](https://hal.inria.fr/inria-00359116/document) | [(2008)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.716.2418&rep=rep1&type=pdf) |
+
 #### Analysis Ready Remote Sensing Data  without labels <a name="land_ard_no_labels"></a>
 - [EarthNet2021 dataset](https://www.earthnet.tech/docs/ds-download/) <a name="earthnet_2021"></a> 
   - Training data for Earth surface prediction/forecasting. The data consists of time series of Sentinel-2 products. More information can be found [here (dataset specificiation)](https://www.earthnet.tech/docs/ds-specifications/) and [here (youtube video with introduction to the EarthNet2021 dataset and challenge)](https://www.youtube.com/watch?v=sumLCeZ92Hk).
