@@ -213,7 +213,7 @@ The dataset is cataloged in four tiles. These tiles are smaller than the origina
   
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    |  Sentinel 2  | Patch | Europe | Crop Classification | [(2021)](https://ieeexplore.ieee.org/document/9553603)| [GitHub](https://github.com/dimzog/S4A) |
+    |  Sentinel 2  | Patch | Europe | Crop Classification | [(2021)](https://ieeexplore.ieee.org/document/9553603)| [GitHub](https://github.com/Orion-AI-Lab/S4A) |
         
 - [BreizhCrops](https://breizhcrops.org/) <a name="breizhcrops"></a> <br />
   BreizhCrops is a novel benchmark dataset for the supervised classification of field crops from satellite time series. It contains
