@@ -327,39 +327,67 @@ The data is available only for the registered domestic researchers. Therefore, p
 
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Farmer's Declarations | Shapefiles | South Korea | Crop Monitoring |-|-|
+    | Korean Ministry of Environment | Shapefiles | South Korea | Crop Monitoring |-|-|
     
 <!-- - [Farm Map (Korean Ministry of Agriculture, Food and Rural Affairs)](http://data.nsdi.go.kr/dataset/20210707ds00001) <a name="farm_map_korea_agriculture"></a> <br />
   Korean Ministry of Agriculture, Food and Rural Affairs(MAFRA) provides farm map, which was produced by a visual interpretation on aerial photos and satellite images based on the parcel boundary of national GIS data. It classifies 6 major parcel types (Rice paddy, Field, Orchard, Cultivation structure, Ginseng, Fallow ground). The dataset was produced at different year for each administration boundary. 
 The data is available only for the registered domestic researchers. Therefore, please ask for cooperation to the Korean researcher in order to use it for the research. 
  -->
- 
- - [Open Labelled Data (Netherlands)](https://nationaalgeoregister.nl/) <a name="open_vhr_images_and_geospatial_netherlands"></a> <br />
+
+ - [Open Labelled Data (France)](https://geoservices.ign.fr/rpg#telechargement) <a name="open_vhr_images_and_geospatial_france"></a> <br />
+    The graphic parcel register (RPG) is a geographical database used as a reference for the instruction of the aids of the common agricultural policy (CAP). Here you can find LPIS data for France together with the crop type declaration of the farmers. These data have been produced by the Services and Payment Agency (ASP) and it contatins data from 2010 and so forth. Anonymous RPG data are vintage and contain plots corresponding to those declared for campaign N in their known situation and approved by the administration, generally on 1 January of year N+1. These data cover the entire French territory, including Mayotte and Saint-Martin, but excluding Saint-Barthélemy. More information about the crop type labels and the files' format can be found [here](https://geoservices.ign.fr/documentation/donnees/vecteur/rpg). <br />
+    Note: the site and all files are written in Frence and the files are located in an ftp server. <br />
+    
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | National Institute for Geographic and Forestry Information (IGN) and France Paying Agency (ASP) | Shapefile | France | Crop Monitoring | [(2016)](https://www.sciencedirect.com/science/article/pii/S0168169916305117) |-|
+
+ - [Open Labelled Data (Catalonia)](http://agricultura.gencat.cat/ca/ambits/desenvolupament-rural/sigpac/mapa-cultius/) <a name="open_vhr_images_and_geospatial_catalonia"></a> <br />
+    The Department of Climate Action, Agriculture and Rural Agenda (DACC) of Catalonia makes available to the public the data from the crop map of Catalonia. This map allows you to locate the crops declared in the Agrarian Declaration - DUN submitted to the DACC. The DUN is the tool for making the declarations of agricultural holdings in Catalonia. It is also used to apply for aid and to carry out certain procedures with the DACC in an integrated way. The geographical basis of declaration is the SIGPAC area. Owners of agricultural holdings that have productive agricultural surface (excluding those for own consumption) are required to declare annually. Data from the DUN and the SIGPAC have been used to draw up this crop map. As the data declared are georeferenced, they can be located on the ground and this makes it possible to know, among other things, the identification of crops on each plot, the irrigation system and, depending on the cases, the second crop that is grown in the plot. This information makes it possible to make an economic assessment of the impact that hailstorms have on crops, the effects of pests, fires, etc. and also lets you know the historical evolution of crops in the territory.
+In the site you can find data from 2015 until now. Finally, in the document Origin of the crop map data , you can consult the details of the data that have been used to make the map. <br />
+    Note: all files and the site are written in Catalan. <br />
+    
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Department of Climate Action, Agriculture and Rural Agenda (DACC) of Catalonia | Shapefile | Catalonia | Crop Monitoring | - |-|
+
+ - [Open Labelled Data (Sweden)](https://www.geodata.se/geodataportalen/srv/swe/catalog.search#/search?resultType=swe-details&_schema=iso19139*&from=1&to=20&fast=index&_content_type=json&sortBy=relevance&or=jordbruksblock) <a name="open_vhr_images_and_geospatial_sweden"></a> <br />
+    
+    LPIS can be found under in the Agricultural block section. Agricultural block is a dataset that contains information on maximum eligible agricultural land according to EU definitions. The agricultural blocks are used by the Swedish Agency for Agriculture to administer support to farmers, for example to check the area data in the farmers' applications and to inform the farmers about current data. The dataset does not contain all agricultural land in Sweden, but only the parts for which a farmer has applied for support at some point. A block is a polygon/surface that delimits an area of agricultural land. A block is delimited by fixed boundaries. Examples of fixed boundaries are roads, stone walls, forests and buildings. A block can also be delimited by regional boundaries (parish boundaries from 2000). A block must, with few exceptions, be at least 0.1 hectares. On a block, only one farmer can have agricultural land (exception for pasture that is cultivated together). The dataset Agricultural Blocks contains approximately 1,143,000 blocks. Of these, approximately 891,000 are arable land blocks and approximately 252,000 pasture land blocks. The total area is 3.2 million hectares, of which 2.7 million hectares are arable land and 510,000 hectares are pasture land. The average area for the arable land blocks is 3.03 ha and for the pasture blocks the corresponding figure is 2.03 ha. <br /> <br />
+The corresponding file with the LPIS and the crop type labels can be found under the Agricultural shifts section. Info: <br />
+A parcel is a contiguous area of land within a block where a farmer grows a crop or otherwise manages the land. To receive compensation for agricultural support (EU support), farmers apply for support from the Swedish Agency for Agriculture via a SAM application. Each parcel contains the attribute "Blockid" which shows which agricultural block it belongs to. "Shift designation" that names the specific shift. In addition, there are the attributes "EFA", "Grodkod" and "land name" which show what is grown or what the land is used for. The amount of information contains parcels where the applied area and decided area are the same. The data applies to the previous year (2021). The amount of information is limited to Gårdstöd. The crop code list can be accessed [here](https://jordbruksverket.se/stod/lantbruk-skogsbruk-och-tradgard/sam-ansokan-och-allmant-om-jordbrukarstoden/grodkoder). <br />
+    Note: all files and the site are written in Swedish. <br />
+    
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | The Swedish Agency for Agriculture | .gml file | Sweden | Crop Monitoring | - |-|
+
+ - [Open Labelled Data (The Netherlands)](https://nationaalgeoregister.nl/) <a name="open_vhr_images_and_geospatial_netherlands"></a> <br />
   The National Georegister focuses primarily on the professional user. This can be a Geo- ICT specialist looking for datasets, services or other geo-information elements. But also a policy officer who wants to consult a map, a web developer or a student who develops a website or application and is looking for geo-information for it. <br />
     - [Land Parcel Identification Systems (LPIS)](http://nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search#/metadata/b812a145-b4fe-4331-8dc6-d914327a87ff) <a name="lpis_netherlands"></a>
     - [Reference Parcels](https://www.nationaalgeoregister.nl/geonetwork/srv/eng/catalog.search;jsessionid=38BDD1EC9752E053336C3A2B28851B8B#/metadata/4fa03182-df71-4c39-87da-e7d5c0b82d88) <a name="reference_parcels_netherlands"></a> 
     
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Farmer's Declarations | GeoDatabase | The Netherlands | Crop Monitoring |-|-|
+    | National GeoRegistry of The Netherlands | GeoDatabase | The Netherlands | Crop Monitoring |-|-|
 
  - [Open Labelled Data (Flanders, Belgium)](https://www.geopunt.be/catalogus/datasetfolder/47c5540f-bf7c-45fc-9a74-8e60547cde82) <a name="open_vhr_images_and_geospatial_belgium"></a> <br />
    Overview of the parcels in agricultural use on the final date of submission of the single application that year. The inventory also includes pools, wooded areas and agricultural production facilities (yards with stables and buildings). <br />  
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Farmer's Declarations | Shapefile, Gml (2.1.2) | Flanders, Belgium | Crop Monitoring |-|-|
+    | Agency for Agriculture and Fisheries of Belgium | Shapefile, Gml (2.1.2) | Flanders, Belgium | Crop Monitoring |-|-|
 
  - [Open Labelled Data (Denmark)](https://landbrugsgeodata.fvm.dk/) <a name="open_vhr_images_and_geospatial_denmark"></a> <br />
   This data collection contatins a plethora of map data that the Danish Agriculture Authority has made openly avaialble. Specifically, under the _Markblokke_ you can find the Land parcel Identification System (LPIS) data collection and under the _Marker_ section you can find the Geo-spatial Aid Application (GSAA) data collection which contains parcel geometries accompanied by their crop type, from 2018 to today. More information are avaialble about the [GSAA files](https://collections.eurodatacube.com/denmark-gsaa/readme.html) where uou can also find you can find a description of crop names [CropDescription](https://collections.eurodatacube.com/denmark-gsaa/GSAA_DK_Description_of_crop_names.xlsx). <br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Farmer's Declarations | Shapefile | Denmark | Crop Monitoring |-|-|
+    | Danish Agriculture Authority | Shapefile | Denmark | Crop Monitoring |-|-|
 
  - [Land parcel Identification System (LPIS) - Luxembourg](https://data.public.lu/fr/datasets/referentiel-des-parcelles-flik/) <a name="open_vhr_images_and_geospatial_luxembourg"></a> <br />
   This dataset contatins agricultural and wine-growing parcels used as a basis for declarations within the framework of the common agricultural policy. <br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Farmer's Declarations | GML | Luxembourg | Vineyard Mapping |-|-|
+    | Administration of agricultural technical services of Luxembourg | GML | Luxembourg | Vineyard Mapping |-|-|
     
 - [DWD_RECENT](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/recent/) <a name="dwd_recent"></a>  <br />
  DWD Climate Data Center (CDC): Phenological observations of crops from sowing to harvest, in Germany. The temporal coverage is rolling, with a window of 500 days (ending always yesterday), and the crops of interest are: meadows, winter wheat, winter rye, winter barley, winter oilseed rape, summer wheat, spring barley, oat, sunflower, maize, beet, sugar beet, fodder beet. For more information click [here](https://opendata.dwd.de/climate_environment/CDC/observations_germany/phenology/annual_reporters/crops/recent/DESCRIPTION_obsgermany-phenology-annual_reporters-crops-recent_en.pdf).
