@@ -517,11 +517,18 @@ The CAMS reanalysis is the latest global reanalysis data set of atmospheric comp
  
  #### Analysis Ready Remote Sensing Data with labels  <a name="other_ard_labels"></a>
  
+ - [The WorldStrat Dataset](https://zenodo.org/record/6810792#.YuJrt1RBxhE) <a name="hephaestus"></a> <br />
+  Nearly 10,000 km² of free high-resolution and matched low-resolution satellite imagery of unique locations which ensure stratified representation of all types of land-use across the world: from agriculture to ice caps, from forests to multiple urbanization densities. Those locations are also enriched with typically under-represented locations in ML datasets: sites of humanitarian interest, illegal mining sites, and settlements of persons at risk. Each high-resolution image (1.5 m/pixel) comes with multiple temporally-matched low-resolution images from the freely accessible lower-resolution Sentinel-2 satellites (10 m/pixel). <br />
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | SPOT 6/7 and Sentinel-2 | Image patches | Worldwide | Super-Resolution |[(2022)](https://arxiv.org/pdf/2207.06418.pdf) | [(GitHub)](https://github.com/worldstrat/worldstrat) |
+
+ 
 - [Hephaestus](https://github.com/Orion-AI-Lab/Hephaestus) <a name="hephaestus"></a> <br />
   Hephaestus is the first manually annotated dataset that consists of 19,919 individual Sentinel-1 interferograms acquired over 44 different volcanoes globally, which are split into 216,106 InSAR patches. The annotated dataset is designed to address different computer vision problems, including volcano state classification, semantic segmentation of ground deformation, detection and classification of atmospheric signals in InSAR imagery, interferogram captioning, text to InSAR generation, and InSAR image quality assessment.  <br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Sentinel-1 | Image parches | Worldwide | Computer Vision (e.g. Volcanic deformation classification) |[(2022)](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Bountos_Hephaestus_A_Large_Scale_Multitask_Dataset_Towards_InSAR_Understanding_CVPRW_2022_paper.pdf) | [(GitHub - same as for dataset access)](https://github.com/Orion-AI-Lab/Hephaestus) |
+    | Sentinel-1 | Image patches | Worldwide | Computer Vision (e.g. Volcanic deformation classification) |[(2022)](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Bountos_Hephaestus_A_Large_Scale_Multitask_Dataset_Towards_InSAR_Understanding_CVPRW_2022_paper.pdf) | [(GitHub - same as for dataset access)](https://github.com/Orion-AI-Lab/Hephaestus) |
 
 #### Analysis Ready Remote Sensing Data  with labels  <a name="other_ard_labels"></a>
 - [Sen1Floods11](https://github.com/cloudtostreet/Sen1Floods11) <a name="sen1floods11"></a> <br />
