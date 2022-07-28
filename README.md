@@ -156,6 +156,13 @@ These labels are also accomompanied by Remote sensing data. More specifically, f
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:--------:|
     |   Sentinel 2  | Patch | Europe | Land Cover Classification | [(2018)](https://ieeexplore.ieee.org/document/8519248) [(2019)](https://ieeexplore.ieee.org/abstract/document/8736785/?casa_token=Q4mLYViYwfgAAAAA:h7ZpTvlI4S_nwFLkh4E-SPpm4Acv6Ez1vQE3bCqmxNjYhZzCcKRo5aFetH_KqT4GFH2xkw9RvA)|  [GitHub](https://github.com/phelber/EuroSAT) | [EfficientNet](https://paperswithcode.com/paper/efficientnet-rethinking-model-scaling-for) [EfficientNetV2](https://paperswithcode.com/paper/efficientnetv2-smaller-models-and-faster) [Vision Transformers](https://paperswithcode.com/paper/an-image-is-worth-16x16-words-transformers-1) | 
 
+- [The Canadian Cropland Dataset](https://drive.google.com/drive/folders/1mNI8B5EMk0Xgvx2Pc9ztnQRaW9pXh8yb) <a name="canadian_cropland"></a> <br />
+  The Canadian Cropland Dataset is a temporal patch-based dataset of Canadian croplands, enriched with labels retrieved from the Canadian Annual Crop Inventory. The dataset contains 78,536 manually verified and curated high-resolution (10 m/pixel, 640 x 640 m) geo-referenced images from 10 crop classes (barley, canola, corn, mixedwood, oat, orchard crops, pasture, potatoes, soybeans and spring wheat) collected over four crop production years (2017-2020) and five months (June-October). Each instance contains 12 spectral bands, a RGB image, and additional bands corresponding to commonly used vegetation indices (NDVI, NDVI45, GNDVI, PSRI and OSAVI). Individually, each category contains at least 4,800 images  <br />
+
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   | 
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    |   Sentinel 2  | Patch | Canada | Crop Classification | [(2022)](https://openreview.net/pdf?id=bBgcnvwv41l) |  [GitHub](https://github.com/bioinfoUQAM/Canadian-cropland-dataset) |
+
 - [Sen12MS](https://mediatum.ub.tum.de/1474000) <a name="sen12ms"></a> <br />
   The SEN12MS dataset contains 180,662 patch triplets of corresponding Sentinel-1 dual-pol SAR data, Sentinel-2 multi-spectral images, and MODIS-derived land cover maps. The patches are distributed across the land masses of the Earth and spread over all four meteorological seasons. This is reflected by the dataset structure. All patches are provided in the form of 16-bit GeoTiffs containing the following specific information:
   - Sentinel-1 SAR: 2 channels corresponding to sigma nought backscatter values in dB scale for VV and VH polarization.
