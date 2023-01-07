@@ -121,6 +121,12 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Water quality data from periodic sampling | csv | Italy - La Loggia lagoon basin | Drinking water quality estimation | - | - |
+    
+- [Geotagged tweets in German about air quality (published in IVMSP2022)](https://github.com/MKLab-ITI/air-quality-tweets-de)  <a name="german_air_quality_tweets"></a><br />
+This dataset consists of 2,948 georeferenced tweets in the German language, which concern the topic of air quality and have been retrieved with the Twitter Standard Streaming API. The tweets have been posted from September 6, 2021 to February 16, 2022 (near six months) and contain air-quality-related keywords in their text, e.g. `Luftqualität`, `Städtische Luftverschmutzung`, `Luftschadstoff`, etc. The provided geoinformation has been extracted from the tweets' text with a state-of-the-art NER implementation that is based on the XLM-RoBERTa (XLM-R) language model, while OpenStreetMap API has been used for retrieving the coordinates of each detected location. <br />
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Twitter data | json | Germany | Air quality estimation | [(2022)](https://2022.ivmsp.org/wp-content/uploads/2022/06/2022101087_IVMSP2022_CR_Copyright.pdf) | - |
 
 ## Existing Datasets <a name="existing"></a>
 
