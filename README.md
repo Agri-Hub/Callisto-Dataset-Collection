@@ -131,8 +131,8 @@ This dataset consists of 2,948 georeferenced tweets in the German language, whic
 
 - [Syntactic Geospatial data generated in RDF format
  (2022)](https://zenodo.org/record/7515691#.Y70-snbMJ3g) <br /> <a name="syntatic_genereted data_rdf"></a>
- This dataset represents synthetic generated data from CALLISTO data in RDF format. It contains the equivalent of 2 billion triples in TTL format. <br/> Samples were generated syntactically from CALLISTO PUC1 data in RDF format with generative adversarial network (GAN). Each entity contains:
-  `Crop category: "Grasland" and "Bouwland"`, `Geo information: as Multipolygon in Well Known Text (WKT) format`, `Geometry area`, `Geometry length`, `Object id`, `Parcel`, `Rdf:type owl:NamedIndividual` <br/>
+ This dataset represents synthetic generated data from CALLISTO data in RDF format. It contains the equivalent of 2 billion triples in TTL format. Samples were generated syntactically from CALLISTO PUC1 data in RDF format with generative adversarial network (GAN). Each entity contains:
+  `Crop category: "Grasland" and "Bouwland"`, `Geo information: as Multipolygon in Well Known Text (WKT) format`, `Geometry area`, `Geometry length`, `Object id`, `Parcel`, `Rdf:type owl:NamedIndividual` 
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Syntactic Geospatial data generated in RDF format | TTL |PUC1 | Semantic complex querying, inference, and analytics from heterogeneous data sources  | - | - |
