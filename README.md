@@ -10,6 +10,7 @@ We strongly encourage the community to provide contributions through pull reques
     1. [Annotated street-level images from Mapillary](#annotated_street_level_mapillary)
     2. [Paddy Rice Maps South Korea (2017~2021)](#paddy_rice_south_korea_2017_2021)
     3. [Paddy Rice Labeling Sites in South Korea (2018)](#paddy_rice_labelling_south_korea_2018)
+    4. [Syntactic Geospatial data generated in RDF format (2022)](#syntatic_genereted data_rdf)
 * [Existing Datasets](#existing)
     1. [Analysis Ready Sentinel Data ](#analysis_ready_sentinel)
         1. [EarthNet2021 dataset](#earthnet_2021)
@@ -127,6 +128,15 @@ This dataset consists of 2,948 georeferenced tweets in the German language, whic
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Twitter data | json | Germany | Air quality estimation | [(2022)](https://2022.ivmsp.org/wp-content/uploads/2022/06/2022101087_IVMSP2022_CR_Copyright.pdf) | - |
+
+- [Syntactic Geospatial data generated in RDF format
+ (2022)](https://zenodo.org/record/7515691#.Y70-snbMJ3g) <br /> <a name="syntatic_genereted data_rdf"></a>
+ This dataset represents synthetic generated data from CALLISTO data in RDF format. It contains the equivalent of 2 billion triples in Terse RDF Triple Language (Turtle) format. Samples were generated syntactically from CALLISTO PUC1 data in RDF format with Generative Adversarial Network (GAN). Each entity contains:
+  `Crop category: "Grasland" and "Bouwland"`, `Geo information: as Multipolygon in Well Known Text (WKT) format`, `Geometry area`, `Geometry length`, `Object id`, `Parcel`, `Rdf:type owl:NamedIndividual` 
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Syntactic Geospatial data generated in RDF format | TTL |PUC1 | Semantic complex querying, inference, and analytics from heterogeneous data sources  | - | - |
+    
 
 ## Existing Datasets <a name="existing"></a>
 
