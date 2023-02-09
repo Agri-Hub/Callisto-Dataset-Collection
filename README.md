@@ -473,6 +473,14 @@ A Ground truth collection for change detection in optical aerial images taken wi
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel-2, E-OBS weather data, EUDEM (digital elevation model) | Data multicubes (numpy arrays) | Patches in Europe | Earth Surface Forecasting (intersection of video prediction and data-driven Earth system modeling) | [(2021)](https://arxiv.org/abs/2104.10066) | [(Models used in the challenge)](https://github.com/earthnet2021/earthnet-model-intercomparison-suite), [("Delta Framework" Models)](https://github.com/rudolfwilliam/satellite_image_forecasting) |
 
+- [Sentinel-2 Multitemporal Cities Pairs (S2MTCP)](https://zenodo.org/record/4280482#.Y-Ub01RByUk) <a name="S2MTCP"></a> 
+  - This dataset contains N=1520 Sentinel-2 level 1C image pairs focused on urban areas around the world. Bands with a spatial resolution smaller than 10 m are resampled to 10 m and images are cropped to approximately 600x600 pixels. The size of some images is smaller than 600x600 pixels as result of the fact that some coordinates were located close to the edge of a Sentinel tile, the images were then cropped to the tile border. Geometric or radiometric corrections are not performed.
+The dataset has been testes with multiple self-supervised learning methods for pre-training models for change detection.
+
+    |  Data Source  | Type  |  Area  |            Task           | Paper |  Code | Relevant Implementations   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Sentinel-2 | image patches | Worldwide | Self Supervised Learning | [(2020)](https://arxiv.org/abs/2101.08122) | - | - |
+
 #### In-situ & Ground-level datasets <a name="land_ard_insitu"></a>
     
 #### Geo-referenced labels <a name="land_ard_georef_labels"></a>
