@@ -91,7 +91,7 @@ Crop type labels from the freely available Land Parcel Identification System (LP
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------:|
     | Street level images  | Parcel | Netherlands | Crop Classification | [(2022)](https://zenodo.org/record/5845512#.YfEqq_uxVH4) | [GitHub](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary) | [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland), [Scene Segmentation](https://github.com/mapillary/seamseg) |
     
-    *FAIRness evaluation ![(see details)](link.com)*
+    *FAIRness evaluation ![(see details)](FAIRness/fairness_evaluation.md)*
     |  Findable | Accessible | Interoperable | Reusable | Total |
     | :-------: | :--------: | :-----------: | :------: | :---: |
     |   22/25   |    25/25   |     17/25     |  21/25   | **85%** ![](https://via.placeholder.com/15/FF4136/000000?text=+)![](https://via.placeholder.com/15/FF5733/000000?text=+)![](https://via.placeholder.com/15/FFC300/000000?text=+)![](https://via.placeholder.com/15/FFD633/000000?text=+)![](https://via.placeholder.com/15/F1FF33/000000?text=+)![](https://via.placeholder.com/15/96FF33/000000?text=+)![](https://via.placeholder.com/15/33FF33/000000?text=+)![](https://via.placeholder.com/15/00CC33/000000?text=+)![](https://via.placeholder.com/15/FFFFFF/000000?text=+)![](https://via.placeholder.com/15/FFFFFF/000000?text=+) | <!-- ![](https://via.placeholder.com/15/00B32C/000000?text=+)![](https://via.placeholder.com/15/008000/000000?text=+) | -->|
