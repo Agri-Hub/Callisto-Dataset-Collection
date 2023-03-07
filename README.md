@@ -85,9 +85,16 @@ We strongly encourage the community to provide contributions through pull reques
 - [Annotated Street Level Images from Mapillary (published in MMM22)](https://github.com/Agri-Hub/Mapillary_Annotation)  <a name="annotated_street_level_mapillary"></a><br />
 Crop type labels from the freely available Land Parcel Identification System (LPIS) of the Netherlands are matched with all available Mapillary street-level images for the year 2017. <br />
 <img src="img/mapillary_annotated_01.jpg" alt="Mapillary Annotated - Dataset sample" height="250px"/> <br/>
+
+
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   | Relevant implementations |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------:|
     | Street level images  | Parcel | Netherlands | Crop Classification | [(2022)](https://zenodo.org/record/5845512#.YfEqq_uxVH4) | [GitHub](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary) | [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland), [Scene Segmentation](https://github.com/mapillary/seamseg) |
+    
+    *FAIRness evaluation ![(see details)](link.com)*
+    |  Findable | Accessible | Interoperable | Reusable | Total |
+    | :-------: | :--------: | :-----------: | :------: | :---: |
+    |   22/25   |    25/25   |     17/25     |  21/25   | **85%** ![](https://via.placeholder.com/15/FF4136/000000?text=+)![](https://via.placeholder.com/15/FF5733/000000?text=+)![](https://via.placeholder.com/15/FFC300/000000?text=+)![](https://via.placeholder.com/15/FFD633/000000?text=+)![](https://via.placeholder.com/15/F1FF33/000000?text=+)![](https://via.placeholder.com/15/96FF33/000000?text=+)![](https://via.placeholder.com/15/33FF33/000000?text=+)![](https://via.placeholder.com/15/00CC33/000000?text=+)![](https://via.placeholder.com/15/FFFFFF/000000?text=+)![](https://via.placeholder.com/15/FFFFFF/000000?text=+) | <!-- ![](https://via.placeholder.com/15/00B32C/000000?text=+)![](https://via.placeholder.com/15/008000/000000?text=+) | -->|
 
 
 - [Space2Ground dataset for Agriculture Monitoring (published in IVMSP-2022)](https://github.com/Agri-Hub/Space2Ground)  <a name="space2ground"></a><br />
@@ -98,6 +105,8 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel-1, Sentinel-2 and crowdsourced street-level images | Parcel | Netherlands | Crop Classification (Grassland Detection mainly) | [(2022)](https://arxiv.org/abs/2205.07721) | [GitHub](https://github.com/Agri-Hub/Space2Ground) |
+    
+
 
 
 - [Paddy Rice Maps South Korea (2017~2021)](https://zenodo.org/record/5845896)  <a name="paddy_rice_south_korea_2017_2021"></a><br />
