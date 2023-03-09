@@ -91,10 +91,10 @@ Crop type labels from the freely available Land Parcel Identification System (LP
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------:|
     | Street level images  | Parcel | Netherlands | Crop Classification | [(2022)](https://zenodo.org/record/5845512#.YfEqq_uxVH4) | [GitHub](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary) | [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland), [Scene Segmentation](https://github.com/mapillary/seamseg) |
     
-    *FAIRness evaluation ![(evaluation framework details)](FAIRness/fairness_evaluation.md)*
-    |  Findable | Accessible | Interoperable | Reusable | Total | Evaluation details |
-    | :-------: | :--------: | :-----------: | :------: | :---: | :----------------: |
-    |   22/25   |    25/25   |     17/25     |  21/25   | **85%** <img src="img/80_wide.png"/> | _![link to details](FAIRness/mapillary_annotated.md)_ |
+    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
+    | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
+    |   22/25   |    25/25   |     17/25     |  21/25   | **85%** <img src="img/80_wide.png"/> | _![(link to score details)](FAIRness/mapillary_annotated.md)_ |
 
 
 - [Space2Ground dataset for Agriculture Monitoring (published in IVMSP-2022)](https://github.com/Agri-Hub/Space2Ground)  <a name="space2ground"></a><br />
