@@ -121,6 +121,11 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel 2| GeoTIFF | South Korea | Paddy Rice Mapping | - | [GitHub](https://github.com/Hyun-Woo-Jo/Paddy_Rice_Maps-South_Korea-2017_2021) |
 
+    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
+    | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
+    |   24/25   |    25/25   |     16/25     |  18/25   | **83%** <img src="img/80_wide.png"/> | _![(link to score details)](FAIRness/paddy_rice_maps_SK.md)_ |
+
     
 - [Paddy Rice Labeling Sites in South Korea (2018)](https://zenodo.org/record/5846018) <br /> <a name="paddy_rice_labelling_south_korea_2018"></a>
   The paddy rice was visually interpreted at 30 sites in South Korea. The sites were selected at each province by a proportional stratified sampling method according to the paddy rice area statistics (Statistics Korea), so the dataset can be used for the validation on model generalization over the entire country. The paddy rice areas were visually interpreted by using Google Earth Pro and street view services (https://map.naver.com, https://map.kakao.com) and updated to the state of 2018.  <br/>
