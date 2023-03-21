@@ -106,6 +106,11 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel-1, Sentinel-2 and crowdsourced street-level images | Parcel | Netherlands | Crop Classification (Grassland Detection mainly) | [(2022)](https://arxiv.org/abs/2205.07721) | [GitHub](https://github.com/Agri-Hub/Space2Ground) |
     
+    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
+    | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
+    |   23/25   |    25/25   |     16/25     |  22/25   | **86%** <img src="img/80_wide.png"/> | _![(link to score details)](FAIRness/space2ground.md)_ |
+    
 
 
 
