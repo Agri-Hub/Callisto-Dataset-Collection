@@ -137,7 +137,7 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
     |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
     | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
-    |   22/25   |    23/25   |     17/25     |  14/25   | **79%** <img src="img/70_wide.png"/> | _![(link to score details)](FAIRness/paddy_rice_labeling_SK.md)_ |
+    |   22/25   |    23/25   |     17/25     |  14/25   | **76%** <img src="img/70_wide.png"/> | _![(link to score details)](FAIRness/paddy_rice_labeling_SK.md)_ |
 
 
 - [Water quality in a basin for drinking water in the North-West of Italy (2022)](https://zenodo.org/record/7251968) <br /> <a name="water_quality_estimation_basin_Italy_2022"></a>
@@ -146,6 +146,11 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Water quality data from periodic sampling | csv | Italy - La Loggia lagoon basin | Drinking water quality estimation | - | - |
+    
+    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
+    | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
+    |   20/25   |    25/25   |     16/25     |  15/25   | **76%** <img src="img/70_wide.png"/> | _![(link to score details)](FAIRness/water_quality_basin.md)_ |
     
 - [Geotagged tweets in German about air quality (published in IVMSP2022)](https://github.com/MKLab-ITI/air-quality-tweets-de)  <a name="german_air_quality_tweets"></a><br />
 This dataset consists of 2,948 georeferenced tweets in the German language, which concern the topic of air quality and have been retrieved with the Twitter Standard Streaming API. The tweets have been posted from September 6, 2021 to February 16, 2022 (near six months) and contain air-quality-related keywords in their text, e.g. `Luftqualität`, `Städtische Luftverschmutzung`, `Luftschadstoff`, etc. The provided geoinformation has been extracted from the tweets' text with a state-of-the-art NER implementation that is based on the XLM-RoBERTa (XLM-R) language model, while OpenStreetMap API has been used for retrieving the coordinates of each detected location. <br />
