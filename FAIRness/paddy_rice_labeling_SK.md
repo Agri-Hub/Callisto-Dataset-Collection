@@ -26,10 +26,10 @@
 | Semantic annotations provided | 0/5 |
 | Links to related resources available | 6/6 |
 
-#### Reusable ➡️ 16/25
+#### Reusable ➡️ 14/25
 | Evaluation Metric | Score |
 | :---------------- | :---- |
 | Clear and permissive licensing terms | 6/6 |
 | Properly documented and versioned data and metadata | 3/5 |
-| Usage guidelines and best practices provided | 4/7 |
+| Usage guidelines and best practices provided | 2/7 |
 | Potential for reuse in different contexts | 3/7 |
