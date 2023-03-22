@@ -157,6 +157,11 @@ This dataset consists of 2,948 georeferenced tweets in the German language, whic
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Twitter data | json | Germany | Air quality estimation | [(2022)](https://2022.ivmsp.org/wp-content/uploads/2022/06/2022101087_IVMSP2022_CR_Copyright.pdf) | - |
+    
+    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
+    | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
+    |   23/25   |    25/25   |     18/25     |  23/25   | **89%** <img src="img/90_wide.png"/> | _![(link to score details)](FAIRness/air_quality_tweets.md)_ |
 
 - [Syntactic Geospatial data generated in RDF format (2022)](https://zenodo.org/record/7579395#.Y-NvwHbMJ3h) <br /> <a name="syntatic_genereted data_rdf"></a>
  This dataset represents synthetic generated data from CALLISTO data in RDF format. It contains the equivalent of 2 billion triples in Terse RDF Triple Language (Turtle) format. Samples were generated syntactically from CALLISTO PUC1 data in RDF format with Generative Adversarial Network (GAN). Each entity contains:
