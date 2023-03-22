@@ -133,6 +133,11 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel 2| GeoTIFF | South Korea | Paddy Rice Validation | - | - |
+    
+    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
+    | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
+    |   22/25   |    23/25   |     17/25     |  14/25   | **79%** <img src="img/70_wide.png"/> | _![(link to score details)](FAIRness/paddy_rice_labeling_SK.md)_ |
 
 
 - [Water quality in a basin for drinking water in the North-West of Italy (2022)](https://zenodo.org/record/7251968) <br /> <a name="water_quality_estimation_basin_Italy_2022"></a>
