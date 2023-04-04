@@ -170,6 +170,11 @@ This dataset consists of 2,948 georeferenced tweets in the German language, whic
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Syntactic Geospatial data generated in RDF format | TTL | Netherlands | Semantic complex querying, inference, and analytics from heterogeneous data sources  | - | - |
     
+    *FAIRness evaluation — _![(link to framework definition)](FAIRness/geospatial_rdf.md)_*
+    |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
+    | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
+    |   18/25   |    25/25   |     20/25     |  15/25   | **78%** <img src="img/70_wide.png"/> | _![(link to score details)](FAIRness/air_quality_tweets.md)_ |
+
 
 ## Existing Datasets <a name="existing"></a>
 
