@@ -91,10 +91,10 @@ Crop type labels from the freely available Land Parcel Identification System (LP
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|:------------------------:|
     | Street level images  | Parcel | Netherlands | Crop Classification | [(2022)](https://zenodo.org/record/5845512#.YfEqq_uxVH4) | [GitHub](https://github.com/Agri-Hub/Callisto/tree/main/Mapillary) | [Street2Sat](https://github.com/nasaharvest/street2sat_website/tree/ICML_paper_code), [DenseASPP](https://github.com/DeepMotionAIResearch/DenseASPP), [Crop Phenology](https://github.com/Momut1/flevoland), [Scene Segmentation](https://github.com/mapillary/seamseg) |
     
-    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    *FAIRness evaluation — _[(link to framework definition)](FAIRness/fairness_evaluation.md)_*
     |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
     | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
-    |   22/25   |    25/25   |     17/25     |  21/25   | **85%** <img src="img/80_wide.png"/> | _![(link to score details)](FAIRness/mapillary_annotated.md)_ |
+    |   22/25   |    25/25   |     17/25     |  21/25   | **85%** <img src="img/80_wide.png"/> | _[(link to score details)](FAIRness/mapillary_annotated.md)_ |
 
 
 - [Space2Ground dataset for Agriculture Monitoring (published in IVMSP-2022)](https://github.com/Agri-Hub/Space2Ground)  <a name="space2ground"></a><br />
@@ -106,10 +106,10 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel-1, Sentinel-2 and crowdsourced street-level images | Parcel | Netherlands | Crop Classification (Grassland Detection mainly) | [(2022)](https://arxiv.org/abs/2205.07721) | [GitHub](https://github.com/Agri-Hub/Space2Ground) |
     
-    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    *FAIRness evaluation — _[(link to framework definition)](FAIRness/fairness_evaluation.md)_*
     |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
     | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
-    |   23/25   |    25/25   |     16/25     |  22/25   | **86%** <img src="img/80_wide.png"/> | _![(link to score details)](FAIRness/space2ground.md)_ |
+    |   23/25   |    25/25   |     16/25     |  22/25   | **86%** <img src="img/80_wide.png"/> | _[(link to score details)](FAIRness/space2ground.md)_ |
     
 
 
@@ -121,10 +121,10 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel 2| GeoTIFF | South Korea | Paddy Rice Mapping | - | [GitHub](https://github.com/Hyun-Woo-Jo/Paddy_Rice_Maps-South_Korea-2017_2021) |
 
-    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    *FAIRness evaluation — _[(link to framework definition)](FAIRness/fairness_evaluation.md)_*
     |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
     | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
-    |   24/25   |    25/25   |     16/25     |  18/25   | **83%** <img src="img/80_wide.png"/> | _![(link to score details)](FAIRness/paddy_rice_maps_SK.md)_ |
+    |   24/25   |    25/25   |     16/25     |  18/25   | **83%** <img src="img/80_wide.png"/> | _[(link to score details)](FAIRness/paddy_rice_maps_SK.md)_ |
 
     
 - [Paddy Rice Labeling Sites in South Korea (2018)](https://zenodo.org/record/5846018) <br /> <a name="paddy_rice_labelling_south_korea_2018"></a>
@@ -134,10 +134,10 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Sentinel 2| GeoTIFF | South Korea | Paddy Rice Validation | - | - |
     
-    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    *FAIRness evaluation — _[(link to framework definition)](FAIRness/fairness_evaluation.md)_*
     |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
     | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
-    |   22/25   |    23/25   |     17/25     |  14/25   | **76%** <img src="img/70_wide.png"/> | _![(link to score details)](FAIRness/paddy_rice_labeling_SK.md)_ |
+    |   22/25   |    23/25   |     17/25     |  14/25   | **76%** <img src="img/70_wide.png"/> | _[(link to score details)](FAIRness/paddy_rice_labeling_SK.md)_ |
 
 
 - [Water quality in a basin for drinking water in the North-West of Italy (2022)](https://zenodo.org/record/7251968) <br /> <a name="water_quality_estimation_basin_Italy_2022"></a>
@@ -147,10 +147,10 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Water quality data from periodic sampling | csv | Italy - La Loggia lagoon basin | Drinking water quality estimation | - | - |
     
-    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    *FAIRness evaluation — _[(link to framework definition)](FAIRness/fairness_evaluation.md)_*
     |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
     | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
-    |   20/25   |    25/25   |     16/25     |  15/25   | **76%** <img src="img/70_wide.png"/> | _![(link to score details)](FAIRness/water_quality_basin.md)_ |
+    |   20/25   |    25/25   |     16/25     |  15/25   | **76%** <img src="img/70_wide.png"/> | _[(link to score details)](FAIRness/water_quality_basin.md)_ |
     
 - [Geotagged tweets in German about air quality (published in IVMSP2022)](https://github.com/MKLab-ITI/air-quality-tweets-de)  <a name="german_air_quality_tweets"></a><br />
 This dataset consists of 2,948 georeferenced tweets in the German language, which concern the topic of air quality and have been retrieved with the Twitter Standard Streaming API. The tweets have been posted from September 6, 2021 to February 16, 2022 (near six months) and contain air-quality-related keywords in their text, e.g. `Luftqualität`, `Städtische Luftverschmutzung`, `Luftschadstoff`, etc. The provided geoinformation has been extracted from the tweets' text with a state-of-the-art NER implementation that is based on the XLM-RoBERTa (XLM-R) language model, while OpenStreetMap API has been used for retrieving the coordinates of each detected location. <br />
@@ -158,10 +158,10 @@ This dataset consists of 2,948 georeferenced tweets in the German language, whic
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Twitter data | json | Germany | Air quality estimation | [(2022)](https://2022.ivmsp.org/wp-content/uploads/2022/06/2022101087_IVMSP2022_CR_Copyright.pdf) | - |
     
-    *FAIRness evaluation — _![(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    *FAIRness evaluation — _[(link to framework definition)](FAIRness/fairness_evaluation.md)_*
     |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
     | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
-    |   23/25   |    25/25   |     18/25     |  23/25   | **89%** <img src="img/90_wide.png"/> | _![(link to score details)](FAIRness/air_quality_tweets.md)_ |
+    |   23/25   |    25/25   |     18/25     |  23/25   | **89%** <img src="img/90_wide.png"/> | _[(link to score details)](FAIRness/air_quality_tweets.md)_ |
 
 - [Syntactic Geospatial data generated in RDF format (2022)](https://zenodo.org/record/7579395#.Y-NvwHbMJ3h) <br /> <a name="syntatic_genereted data_rdf"></a>
  This dataset represents synthetic generated data from CALLISTO data in RDF format. It contains the equivalent of 2 billion triples in Terse RDF Triple Language (Turtle) format. Samples were generated syntactically from CALLISTO PUC1 data in RDF format with Generative Adversarial Network (GAN). Each entity contains:
@@ -170,6 +170,11 @@ This dataset consists of 2,948 georeferenced tweets in the German language, whic
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Syntactic Geospatial data generated in RDF format | TTL | Netherlands | Semantic complex querying, inference, and analytics from heterogeneous data sources  | - | - |
     
+    *FAIRness evaluation — _[(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
+    | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
+    |   18/25   |    25/25   |     20/25     |  15/25   | **78%** <img src="img/70_wide.png"/> | _[(link to score details)](FAIRness/geospatial_rdf.md)_ |
+
 
 ## Existing Datasets <a name="existing"></a>
 
