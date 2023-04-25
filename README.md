@@ -178,6 +178,7 @@ This dataset consists of 2,948 georeferenced tweets in the German language, whic
 - [Air quality trends for Berlin and Hamburg (2021-2022)](https://zenodo.org/record/7801412#.ZEe6PHZByOB) <br /> <a name="air_quality_trends"></a>
  In the context of CALLISTO and its pilot use case "Sensor Journalism", air pollution is studied from a journalistic point of view through an integrated solution that comprises multiple data visualisation tools. One of these tools is CALLISTO's Geospatial Business Intelligence (GeoBI) tool, which provides various visualisations of primarily air quality data and its purpose is to enable journalists identify air quality events and trends to build their stories.
  The data provided here include trends of concentrations of specific air pollutants for the areas of Berlin and Hamburg during 2021 and 2022 (graphs & csv format) coming from the official air quality monitoring stations `DEBE065` and `DEHH008`, in Berlin and Hamburg respectively, and are taken from OpenAQ.
+ <img src="img/Ber_NO2_2021.jpg" alt="Air Quality - Berlin - 2021 - NO2" height="250px"/><br />
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
     | Air Quality monitoring stations | csv | Berling & Hamburg | Air Quality Monitoring, Sensor Journalism | - | - |
