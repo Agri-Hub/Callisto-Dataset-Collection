@@ -186,7 +186,7 @@ This dataset consists of 2,948 georeferenced tweets in the German language, whic
     *FAIRness evaluation — _[(link to framework definition)](FAIRness/fairness_evaluation.md)_*
     |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
     | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
-    |    ?/25   |     ?/25   |      ?/25     |   ?/25   | **??%** <img src="img/00_wide.png"/> | _[(link to score details)](FAIRness/air_quality.md)_ |
+    |   24/25   |    25/25   |     18/25     |   21/25  | **88%** <img src="img/80_wide.png"/> | _[(link to score details)](FAIRness/air_quality_trends.md)_ |
 
 
 
