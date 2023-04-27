@@ -1,5 +1,5 @@
 # AI for Copernicus - a data repository by [CALLISTO](http://www.callisto-h2020.eu/)
-A list of datasets aiming to enable Artificial Intelligence applications that use Copernicus and other data.
+A list of datasets aiming to enable Artificial Intelligence applications that use Earth Observation, satellite and other data.
 
 It will be continuously enhanced with more datasets, and we are also aiming to trigger innovation by matching each one with papers and implementations that we consider relevant and could be used together in future work!
 
