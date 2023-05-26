@@ -181,12 +181,24 @@ This dataset consists of 2,948 georeferenced tweets in the German language, whic
  <img src="img/Ber_NO2_2021.jpg" alt="Air Quality - Berlin - 2021 - NO2" height="250px"/><br/>
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | Air Quality monitoring stations | csv | Berling & Hamburg | Air Quality Monitoring, Sensor Journalism | - | - |
+    | Air Quality monitoring stations | csv | Berlin & Hamburg | Air Quality Monitoring, Sensor Journalism | - | - |
     
     *FAIRness evaluation — _[(link to framework definition)](FAIRness/fairness_evaluation.md)_*
     |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
     | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
     |   24/25   |    25/25   |     18/25     |   21/25  | **88%** <img src="img/80_wide.png"/> | _[(link to score details)](FAIRness/air_quality_trends.md)_ |
+
+- [HYPSTAR water reflectance and derived water quality products at the Blankaart surface water reservoir (BE)](https://zenodo.org/record/7970383) <br /> <a name="hypstar_callisto"></a>
+ This dataset consists of 2988 **hyperspectral water leaving reflectance spectra** measured between 2021-02-03 and 2022-08-03 at the Blankaart Surface Water Reservoir (Belgium, 50.98857N, 2.835213E) with the **HYPSTAR®**. From this dataset **Chlorophyll-a concentration and suspended particulate matter** were derived for monitoring water quality over the surface water reservoir. <br/>
+ <img src="img/hypstar_remote_sensing.jpg" alt="HYPSTAR water reflectance data" height="250px"/><br/>
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Sensor data from HYPSTAR | csv | Belgium | Water quality estimation | [(2022)](https://www.mdpi.com/2072-4292/14/21/5607) | [GitHub](https://github.com/HYPERNETS/hypernets_processor) |
+    
+    *FAIRness evaluation — _[(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
+    | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
+    |   24/25   |    25/25   |     18/25     |   21/25  | **88%** <img src="img/80_wide.png"/> | _[(link to score details)](FAIRness/hypstar.md)_ |
 
 
 
