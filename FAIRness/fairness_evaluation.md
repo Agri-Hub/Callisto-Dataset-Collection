@@ -1,6 +1,6 @@
 ### Fairness Evaluation Methodology
 
-In 2016, the ‘FAIR Guiding Principles for scientific data management and stewardship’ were published in Scientific Data. The authors intended to provide guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets. The principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data. _![(source)](https://www.go-fair.org/fair-principles/)_
+In 2016, the ‘FAIR Guiding Principles for scientific data management and stewardship’ were published in Scientific Data. The authors intended to provide guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets. The principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data. _[(source)](https://www.go-fair.org/fair-principles/)_
 
 To calculate a FAIRness score we assess the degree to which each of the CALLISTO-generated datasets meet the FAIR principles. To assign a numerical value to each principle, we are using the following scoring system.
 * Findable (score range: 0-25)
