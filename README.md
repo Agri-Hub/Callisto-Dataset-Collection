@@ -515,7 +515,7 @@ The corpus was created under the [RapidAI4EO](https://rapidai4eo.eu/) project.
 
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Relevant Implementations   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
-    | PlanetFusion, Sentinel-2, CORINE | Sattelite Image Time Series | Europe | LULC Classification, Change Detection, and more | [(2021)]([https://arxiv.org/abs/1810.08468](https://arxiv.org/abs/2110.01919)) | [(Tutorial)](https://radiantearth.blob.core.windows.net/mlhub/rapidai4eo/tutorial/tutorial.html) |
+    | PlanetFusion, Sentinel-2, CORINE | Sattelite Image Time Series | Europe | LULC Classification, Change Detection, and more | [(2021)](https://arxiv.org/abs/2110.01919) | [(Tutorial)](https://radiantearth.blob.core.windows.net/mlhub/rapidai4eo/tutorial/tutorial.html) |
 
 - [Onera Dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection#files)<br />
 The Onera Satellite Change Detection dataset addresses the issue of detecting changes between satellite images from different dates.
