@@ -505,6 +505,18 @@ bean, green pea, tomato, white cabbage, alfalfa, red clover, beet, sugar beet, f
 
 ### Land change <a name="land"></a>
 #### Analysis Ready Remote Sensing Data  with labels <a name="land_ard_labels"></a>
+- [RapidAI4EO: A Corpus of Dense Time Series Satellite Imagery](https://rapidai4eo.source.coop/)<br />
+The RapidAI4EO corpus is a dataset of dense time series satellite imagery sampled at 500,000 locations across Europe. Sample locations are non-overlapping with a footprint of 600×600 metres. At each location the corpus contains datacubes of two cloud-free, regular-cadence image products and corresponding land cover labels:
+  *  Planet Fusion three-metre, five-day cadence radiometrically harmonized and gap-filled imagery for 2018–2019
+  *  Sentinel-2 L2A monthly image mosaics at 10-metre resolution for 2018
+  *  CORINE Land Cover multiclass labels for 2018
+Originally designed to train deep learning models for land use and land cover (LULC) classification and change detection, the corpus is being released as open data to support research in these domains as well as others that could benefit from dense time series satellite imagery.
+The corpus was created under the [RapidAI4EO](https://rapidai4eo.eu/) project.
+
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Relevant Implementations   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | PlanetFusion, Sentinel-2, CORINE | Sattelite Image Time Series | Europe | LULC Classification, Change Detection, and more | [(2021)]([https://arxiv.org/abs/1810.08468](https://arxiv.org/abs/2110.01919)) | [(Tutorial)](https://radiantearth.blob.core.windows.net/mlhub/rapidai4eo/tutorial/tutorial.html) |
+
 - [Onera Dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection#files)<br />
 The Onera Satellite Change Detection dataset addresses the issue of detecting changes between satellite images from different dates.
 It comprises 24 pairs of multispectral images taken from the Sentinel-2 satellites between 2015 and 2018. Locations are picked all over the world, in Brazil, USA, Europe, Middle-East and Asia. For each location, registered pairs of 13-band multispectral satellite images obtained by the Sentinel-2 satellites are provided. Images vary in spatial resolution between 10m, 20m and 60m.
