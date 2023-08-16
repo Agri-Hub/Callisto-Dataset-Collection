@@ -140,8 +140,8 @@ Space2Ground is a multi-level, multi-sensor, multi-modal dataset, annotated with
     |   22/25   |    23/25   |     17/25     |  14/25   | **76%** <img src="img/70_wide.png"/> | _[(link to score details)](FAIRness/paddy_rice_labeling_SK.md)_ |
 
 
-- [Water quality in a basin for drinking water in the North-West of Italy (2022)](https://zenodo.org/record/7251968) <br /> <a name="water_quality_estimation_basin_Italy_2022"></a>
-  Information about water quality in La Loggia basin was collected in different seasons in 2022, both on the basin surface and at different depths. <br/> Samples were collected and analysed in lab, for the following parameters:
+- [Water quality in a basin for drinking water in the North-West of Italy (2022-2023)](https://zenodo.org/record/8252159) <br /> <a name="water_quality_estimation_basin_Italy_2022"></a>
+  Information about water quality in La Loggia basin was collected in different seasons in 2022 ανδ 2023, both on the basin surface and at different depths. <br/> Samples were collected and analysed in lab, for the following parameters:
   `Total chlorophyll`, `Blue-green algae`, `Diatoms`, `Green algae`, `Planktothrix`, `Transparency`, `Temperature`, `Dissolved oxygen`, `pH`, `Conductivity`, `Turbidity`, `Bromide`, `Bromate`, `Chloride`, `Chlorite`, `Chlorate`, `Fluoride`, `Nitrite`, `Nitrate`, `Orthophosphate`, `Sulfates`  <br/>
     |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
     | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
