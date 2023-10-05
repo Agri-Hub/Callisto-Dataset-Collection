@@ -10,7 +10,8 @@ We strongly encourage the community to provide contributions through pull reques
     1. [Annotated street-level images from Mapillary](#annotated_street_level_mapillary)
     2. [Paddy Rice Maps South Korea (2017~2021)](#paddy_rice_south_korea_2017_2021)
     3. [Paddy Rice Labeling Sites in South Korea (2018)](#paddy_rice_labelling_south_korea_2018)
-    4. [Syntactic Geospatial data generated in RDF format (2022)](#syntatic_genereted data_rdf)
+    4. [Ontology and Geospatial Knowledge Graph in RDF format (2023)](#ontology_KG_rdf)
+    5. [Syntactic Geospatial data generated in RDF format (2022)](#syntatic_genereted data_rdf)
 * [Existing Datasets](#existing)
     1. [Analysis Ready Sentinel Data ](#analysis_ready_sentinel)
         1. [EarthNet2021 dataset](#earthnet_2021)
@@ -162,6 +163,17 @@ This dataset consists of 2,948 georeferenced tweets in the German language, whic
     |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
     | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
     |   23/25   |    25/25   |     18/25     |  23/25   | **89%** <img src="img/90_wide.png"/> | _[(link to score details)](FAIRness/air_quality_tweets.md)_ |
+
+- [Ontology and Geospatial Knowledge Graph in RDF format (2023)](https://github.com/Agri-Hub/Callisto/tree/main/Knowledge_Graph) <br /> <a name="ontology_KG_rdf"></a>
+ This dataset provides the geospatial semantic representation of the CALLISTO project and the domain knowledge of the pilot use cases, in the form of knowledge graph. This semantic representation contains a wide range of data categories, related to transformation and integration of PUCs' datasets to the ontology, including: <a href="#space2ground">agricultural data</a>, <a href="#water_quality_estimation_basin_Italy_2022">water quality indexes</a>, <a href="#german_air_quality_tweets">air quality information</a>, and <a href="#german_air_quality_tweets">tweets</a>, along with geo-relationship information. Around 9 million triples were generated from CALLISTO pilot usecases [PUC1,PUC2,PUC3] in RDF format.  
+    |  Data Source  | Type  |  Area  |            Task           | Paper |   Code   |
+    | :------------:|:-----:|:------:| :------------------------:|:-----:|:--------:|
+    | Ontology and Geospatial Knowledge Graph in RDF format | RDF triples | Netherlands, Germany, Italy | Semantic integration of CALLISTO datasets to represent their relationships  | - | - |
+    
+    *FAIRness evaluation — _[(link to framework definition)](FAIRness/fairness_evaluation.md)_*
+    |  Findable | Accessible | Interoperable | Reusable | FAIRness score | Score details |
+    | :-------: | :--------: | :-----------: | :------: | :------------: | :----------------: |
+    |   25/25   |    25/25   |     23/25     |  22/25   | **95%** <img src="img/90_wide.png"/> | _[(link to score details)](FAIRness/knowledge_graph.md)_ |
 
 - [Syntactic Geospatial data generated in RDF format (2022)](https://zenodo.org/record/7579395#.Y-NvwHbMJ3h) <br /> <a name="syntatic_genereted data_rdf"></a>
  This dataset represents synthetic generated data from CALLISTO data in RDF format. It contains the equivalent of 2 billion triples in Terse RDF Triple Language (Turtle) format. Samples were generated syntactically from CALLISTO PUC1 data in RDF format with Generative Adversarial Network (GAN). Each entity contains:
