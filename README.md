@@ -82,7 +82,7 @@ We strongly encourage the community to provide contributions through pull reques
  -->
 
 ## Callisto Generated Datasets <a name="callisto_generated"></a>
-
+_Note that for some of the Callisto-generated datasets, AI models have been utilized to clean the data and/or generate labels. This is explicitly mentioned wherever it applies._
 - [Annotated Street Level Images from Mapillary (published in MMM22)](https://github.com/Agri-Hub/Mapillary_Annotation)  <a name="annotated_street_level_mapillary"></a><br />
 Crop type labels from the freely available Land Parcel Identification System (LPIS) of the Netherlands are matched with all available Mapillary street-level images for the year 2017. <br />
 <img src="img/mapillary_annotated_01.jpg" alt="Mapillary Annotated - Dataset sample" height="250px"/> <br/>
