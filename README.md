@@ -753,6 +753,20 @@ Explore how senseFly drone solutions are employed around the globe — from topo
     | Drones/UAVs | Images | Worldwide | Various (topographic mapping, crop scouting, climate change, etc.) | - | - |
 
 ### European projects <a name="eu_projects"></a>
+- [Global Earth Monitor (GEM)](https://www.globalearthmonitor.eu/) <a name="gem_daas"></a>
+  - Most of datasets that were either used to produce GEM results, or are results of GEM project, are made available publicly.
+  - With the objective being the uptake of GEM framework, they share example code on how to access data using notebooks available at https://github.com/sentinel-hub/eo-learn-examples/.
+  - The [introductory notebook](https://github.com/sentinel-hub/eo-learn-examples/blob/main/GEM-data/introduction.ipynb) gives an overview of the data used and produced within GEM framework. The examples, presented in Jupyter Notebooks, are structured according to data type:
+    * [EO data](https://github.com/sentinel-hub/eo-learn-examples/blob/b9541d4c7e8a8109ce9068e10c5bdce45231109f/GEM-data/eo-data.ipynb): Earth Observation data (e.g., Sentinel and LandSat missions)
+    * [EO derived data](https://github.com/sentinel-hub/eo-learn-examples/blob/b9541d4c7e8a8109ce9068e10c5bdce45231109f/GEM-data/eo-derived-data.ipynb): data, derived from EO data (e.g., Global Land Cover)
+    * [EO commercial data](https://github.com/sentinel-hub/eo-learn-examples/blob/b9541d4c7e8a8109ce9068e10c5bdce45231109f/GEM-data/eo-commercial-data.ipynb): commercial EO data (e.g., Maxar imagery)
+    * [weather/climate data](https://github.com/sentinel-hub/eo-learn-examples/blob/b9541d4c7e8a8109ce9068e10c5bdce45231109f/GEM-data/weather-data.ipynb): weather data, accessible through meteoblue services
+    * [GEM ML ready data-cubes](https://github.com/sentinel-hub/eo-learn-examples/blob/b9541d4c7e8a8109ce9068e10c5bdce45231109f/GEM-data/gem-ML-datacubes.ipynb): analysis/machine-learning ready datacubes, created within GEM project
+    * [GEM datasets](https://github.com/sentinel-hub/eo-learn-examples/blob/b9541d4c7e8a8109ce9068e10c5bdce45231109f/GEM-data/gem-datasets.ipynb): The GEM datasets facilitate easier navigation and clearer overview of data produced in various use-cases from GEM project, and is further structured into several notebooks. The use cases are:
+      - Built-up areas use-case
+      - Map making use-case
+      - Land Cover - Continuous Monitoring Servece (LC-CMS)
+
 - [NextGEOSS Data Catalog (DaaS)](https://catalogue.nextgeoss.eu/) <a name="nextgeoss_daas"></a>
   - Archived data: YES
   - Real Time data or NEAR REAL TIME: YES
