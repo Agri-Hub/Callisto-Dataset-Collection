@@ -785,6 +785,11 @@ Explore how senseFly drone solutions are employed around the globe — from topo
     - The DeepCube Africa Minicubes dataset has been designed for prototyping models for forecasting drought impacts in Africa. It is an open-access dataset consisting of 50.000 spatio-temporal minicubes (13 Tb, 2017-2022). It pairs high resolution remotely sensed spectral bands with weather observations into sparsely sampled minicubes of 3.84×3.84Km. The data is shaped into minicubes in order to facilitate the training of deep learning spatio-temporal models that make use of both spatial and temporal dependencies (convolutions and recurrency, e.g., video prediction models).
     - Access the dataset on [Zenodo](https://doi.org/10.5281/zenodo.5079843)
 
+  - **Somalia EO data cube for drought displacement**
+    - EO data cube consisting climate variables between 2010 and 2022 at 0.1 degree resolution (roughly 1 GB) over Somalia. The data cube includes soil moisture at 4 different levels, total precipitation, 2m air temperature, potential evaporation captured from ERA5 land as well as precipitation obtained from the CHIRPS. This data cube can be served serves as the basic input resource for understanding the climate effect on drought displacement by considering various spatial and temporal aggregation levels.
+    - A tabular dataset is available consisting all the variables (Climate and vegetation related variables, Fatality related variables, Social economic variables, Internally Displaced Persons (IDPs)) for analyzing the climate induced migration in Africa.
+    - Can be accessed via [Zenodo](https://zenodo.org/deposit/7417719)
+
 - [NextGEOSS Data Catalog (DaaS)](https://catalogue.nextgeoss.eu/) <a name="nextgeoss_daas"></a>
   - Archived data: YES
   - Real Time data or NEAR REAL TIME: YES
