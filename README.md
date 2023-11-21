@@ -753,7 +753,7 @@ Explore how senseFly drone solutions are employed around the globe — from topo
     | Drones/UAVs | Images | Worldwide | Various (topographic mapping, crop scouting, climate change, etc.) | - | - |
 
 ### European projects <a name="eu_projects"></a>
-- [Global Earth Monitor (GEM)](https://www.globalearthmonitor.eu/) <a name="gem_daas"></a>
+- [Global Earth Monitor (GEM)](https://www.globalearthmonitor.eu/) <a name="gem"></a>
   - Most of datasets that were either used to produce GEM results, or are results of GEM project, are made available publicly.
   - With the objective being the uptake of GEM framework, they share example code on how to access data using notebooks available at https://github.com/sentinel-hub/eo-learn-examples/.
   - The [introductory notebook](https://github.com/sentinel-hub/eo-learn-examples/blob/main/GEM-data/introduction.ipynb) gives an overview of the data used and produced within GEM framework. The examples, presented in Jupyter Notebooks, are structured according to data type:
@@ -766,6 +766,12 @@ Explore how senseFly drone solutions are employed around the globe — from topo
       - Built-up areas use-case
       - Map making use-case
       - Land Cover - Continuous Monitoring Servece (LC-CMS)
+
+- [DeepCube](https://deepcube-h2020.eu/) <a name="deepcube"></a>
+  - **mesogeos: A Daily Datacube for the Modeling and Analysis of Wildfires in the Mediterranean**
+    - mesogeos is meant to be used to develop models for next-day fire hazard forecasting in the Mediterranean. The dataset contains satellite data from MODIS, weather variables from ERA5-Land, soil moisture index from JRC European Drought Observatory, population count & distance to roads from worldpop.org, land cover from Copernicus Climate Change Service, elevation, aspect, slope and curvature from Copernicus EU-DEM, and burned areas and ignition points from EFFIS.
+    - Available at: [https://doi.org/10.5281/zenodo.7473332](https://doi.org/10.5281/zenodo.7473332)
+    - More information and link for downloading the dataset can be found in [https://github.com/Orion-AI-Lab/mesogeos](https://github.com/Orion-AI-Lab/mesogeos)
 
 - [NextGEOSS Data Catalog (DaaS)](https://catalogue.nextgeoss.eu/) <a name="nextgeoss_daas"></a>
   - Archived data: YES
