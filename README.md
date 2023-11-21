@@ -772,6 +772,9 @@ Explore how senseFly drone solutions are employed around the globe — from topo
     - mesogeos is meant to be used to develop models for next-day fire hazard forecasting in the Mediterranean. The dataset contains satellite data from MODIS, weather variables from ERA5-Land, soil moisture index from JRC European Drought Observatory, population count & distance to roads from worldpop.org, land cover from Copernicus Climate Change Service, elevation, aspect, slope and curvature from Copernicus EU-DEM, and burned areas and ignition points from EFFIS.
     - Available at: [https://doi.org/10.5281/zenodo.7473332](https://doi.org/10.5281/zenodo.7473332)
     - More information and link for downloading the dataset can be found in [https://github.com/Orion-AI-Lab/mesogeos](https://github.com/Orion-AI-Lab/mesogeos)
+  - **Hephaestus: A large scale multitask dataset towards InSAR understanding**
+    - Hephaestus is the first of its kind, manually annotated dataset that consists of 19,919 individual Sentinel-1 interferograms acquired over 44 different volcanoes globally, which are split into 216,106 InSAR patches. The annotated dataset is designed to address different computer vision problems, including volcano state classification, semantic segmentation of ground deformation, detection and classification of atmospheric signals in InSAR imagery, interferogram captioning, text to InSAR generation, and InSAR image quality assessment.
+    - Available at: [https://github.com/Orion-AI-Lab/Hephaestus](https://github.com/Orion-AI-Lab/Hephaestus) 
 
 - [NextGEOSS Data Catalog (DaaS)](https://catalogue.nextgeoss.eu/) <a name="nextgeoss_daas"></a>
   - Archived data: YES
