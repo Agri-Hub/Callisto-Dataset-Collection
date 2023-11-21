@@ -790,6 +790,11 @@ Explore how senseFly drone solutions are employed around the globe — from topo
     - A tabular dataset is available consisting all the variables (Climate and vegetation related variables, Fatality related variables, Social economic variables, Internally Displaced Persons (IDPs)) for analyzing the climate induced migration in Africa.
     - Can be accessed via [Zenodo](https://zenodo.org/deposit/7417719)
 
+  - **Data cube for the wildfire research community**
+    - Meant to be used to develop models for next day fire hazard forecasting in Greece. The dataset includes dynamic variables, such as previous day Leaf Area Index, evapotransiration, Land Surface Temperature, meteorological data, fire variables and Fire Weather Index, resampled at daily temporal resolution and 1km spatial resolution. It also includes static variables, such as roads density, population density and topography layers.
+    - To download and directly access the data cube please visit [http://doi.org/10.5281/zenodo.4943354](http://doi.org/10.5281/zenodo.4943354)
+    - To import and analyse the data within the data cube, this [Jupyter Notebook](https://nbviewer.jupyter.org/github/DeepCube-org/uc3-public-notebooks/blob/main/1_UC3_Datacube_Access_and_Plotting.ipynb) can be used.
+
 - [NextGEOSS Data Catalog (DaaS)](https://catalogue.nextgeoss.eu/) <a name="nextgeoss_daas"></a>
   - Archived data: YES
   - Real Time data or NEAR REAL TIME: YES
