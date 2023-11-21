@@ -774,7 +774,12 @@ Explore how senseFly drone solutions are employed around the globe — from topo
     - More information and link for downloading the dataset can be found in [https://github.com/Orion-AI-Lab/mesogeos](https://github.com/Orion-AI-Lab/mesogeos)
   - **Hephaestus: A large scale multitask dataset towards InSAR understanding**
     - Hephaestus is the first of its kind, manually annotated dataset that consists of 19,919 individual Sentinel-1 interferograms acquired over 44 different volcanoes globally, which are split into 216,106 InSAR patches. The annotated dataset is designed to address different computer vision problems, including volcano state classification, semantic segmentation of ground deformation, detection and classification of atmospheric signals in InSAR imagery, interferogram captioning, text to InSAR generation, and InSAR image quality assessment.
-    - Available at: [https://github.com/Orion-AI-Lab/Hephaestus](https://github.com/Orion-AI-Lab/Hephaestus) 
+    - Available at: [https://github.com/Orion-AI-Lab/Hephaestus](https://github.com/Orion-AI-Lab/Hephaestus)
+
+  - **Annotated InSAR datasets for volcanic unrest detection**
+    - These datasets have been published in the context of the DeepCube Use Case on global volcanic unrest detection and alerting led by the National Observatory of Athens.
+    - To create the C1 dataset we downloaded and manually annotated InSAR products from the COMET-LiCS Sentinel-1 InSAR portal (https://comet.nerc.ac.uk/comet-lics-portal/). The S1 dataset has been provided by the University of Bristol and is part of the work of Anantrasirichai et al (https://doi.org/10.1029/2018JB015911).
+    - To download the datasets you can visit https://github.com/DeepCube-org/uc4a-notebooks
 
 - [NextGEOSS Data Catalog (DaaS)](https://catalogue.nextgeoss.eu/) <a name="nextgeoss_daas"></a>
   - Archived data: YES
