@@ -781,6 +781,10 @@ Explore how senseFly drone solutions are employed around the globe — from topo
     - To create the C1 dataset we downloaded and manually annotated InSAR products from the COMET-LiCS Sentinel-1 InSAR portal (https://comet.nerc.ac.uk/comet-lics-portal/). The S1 dataset has been provided by the University of Bristol and is part of the work of Anantrasirichai et al (https://doi.org/10.1029/2018JB015911).
     - To download the datasets you can visit https://github.com/DeepCube-org/uc4a-notebooks
 
+  - **Africa minicubes dataset**
+    - The DeepCube Africa Minicubes dataset has been designed for prototyping models for forecasting drought impacts in Africa. It is an open-access dataset consisting of 50.000 spatio-temporal minicubes (13 Tb, 2017-2022). It pairs high resolution remotely sensed spectral bands with weather observations into sparsely sampled minicubes of 3.84×3.84Km. The data is shaped into minicubes in order to facilitate the training of deep learning spatio-temporal models that make use of both spatial and temporal dependencies (convolutions and recurrency, e.g., video prediction models).
+    - Access the dataset on [Zenodo](https://doi.org/10.5281/zenodo.5079843)
+
 - [NextGEOSS Data Catalog (DaaS)](https://catalogue.nextgeoss.eu/) <a name="nextgeoss_daas"></a>
   - Archived data: YES
   - Real Time data or NEAR REAL TIME: YES
