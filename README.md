@@ -795,6 +795,10 @@ Explore how senseFly drone solutions are employed around the globe — from topo
     - To download and directly access the data cube please visit [http://doi.org/10.5281/zenodo.4943354](http://doi.org/10.5281/zenodo.4943354)
     - To import and analyse the data within the data cube, this [Jupyter Notebook](https://nbviewer.jupyter.org/github/DeepCube-org/uc3-public-notebooks/blob/main/1_UC3_Datacube_Access_and_Plotting.ipynb) can be used.
 
+  - **Data cube to calculate the environmental impact of tourism in Brazil**
+    - The aim of the dataset is to use models to isolate the impact of a travel package offered by a tourism stakeholder, so that the virtual extra cost of a tourist on the local environment can be calculated. The datacube includes dynamic variables such as the land surface temperature, the soil moisture condition, the Normalized Difference Vegetation Index, the atmospheric composition through different variables (carbon monoxide, nitrogen dioxide, zone, sulphure dioxide, etc), the thermal comfort index of the Tourism Sustainable Development Index, as well as other static variables such as topographic layers or land cover maps.
+    - To access and download the datacube visit [https://doi.org/10.5281/zenodo.5076076](https://doi.org/10.5281/zenodo.5076076).
+
 - [NextGEOSS Data Catalog (DaaS)](https://catalogue.nextgeoss.eu/) <a name="nextgeoss_daas"></a>
   - Archived data: YES
   - Real Time data or NEAR REAL TIME: YES
